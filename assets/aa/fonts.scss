@@ -1,0 +1,31 @@
+/*-- scss:defaults --*/
+
+// Active Analytics — fonts
+// The original theme references "Red Hat Text" (body) and "Petrona" (headings),
+// loaded in a private fonts.scss. This version uses a system stack so nothing
+// is fetched from Google Fonts (no GDPR/BlockBear issues) and the site renders
+// identically everywhere.
+
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                         "Helvetica Neue", Arial, sans-serif;
+$font-family-monospace:  SFMono-Regular, Menlo, Consolas, "Liberation Mono",
+                         "Courier New", monospace;
+$headings-font-family:   $font-family-sans-serif;
+$headings-font-weight:   600;
+
+/*-- scss:rules --*/
+
+// To self-host a font instead (same approach as lesswasted.nl / Patrick Hand):
+// 1. Download woff2 files, e.g. from https://gwfh.mranftl.com (google-webfonts-helper)
+// 2. Put them in assets/aa/fonts/
+// 3. Uncomment and adapt:
+//
+// @font-face {
+//   font-family: "Red Hat Text";
+//   font-style: normal;
+//   font-weight: 400 700;
+//   font-display: swap;
+//   src: url("fonts/red-hat-text-variable.woff2") format("woff2");
+// }
+//
+// ...then set $font-family-sans-serif above to "Red Hat Text", sans-serif;

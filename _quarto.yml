@@ -1,0 +1,63 @@
+project:
+  type: website
+
+website:
+  title: "Active Analytics"
+  site-url: https://activeanalytics.example # TODO: real domain
+  description: "Geospatial data science for transport, air quality, and road safety."
+  favicon: assets/aa/img/logo.svg
+  page-navigation: true
+  back-to-top-navigation: true
+
+  navbar:
+    logo: assets/aa/img/logo.svg
+    tools:
+      - icon: github
+        href: https://github.com/activeanalytics-nl
+    right:
+      - text: About
+        href: about.qmd
+      - text: Services
+        href: services.qmd
+      - text: Projects
+        href: projects/index.qmd
+      - text: Blog
+        href: blog/index.qmd
+      - text: Contact
+        href: contact.qmd
+
+  page-footer:
+    left: >-
+      &#169; 2026 Active Analytics &#8729; Made with [Quarto](https://quarto.org)
+    center: |
+      <a class="link-dark me-1" href="https://github.com/activeanalytics-nl" title="GitHub" target="_blank" rel="noopener">{{< fa brands github >}}</a>
+      <a class="link-dark me-1" href="https://linkedin.com" title="LinkedIn" target="_blank" rel="noopener">{{< fa brands linkedin >}}</a>
+      <a class="link-dark me-1" href="contact.html" title="Email">{{< fa envelope >}}</a>
+    right:
+      - icon: rss
+        href: blog/index.xml
+
+format:
+  html:
+    theme:
+      light:
+        - cosmo
+        - assets/aa-theme-light.scss
+        - assets/aa/colors-light.scss
+        - assets/aa/fonts.scss
+      dark:
+        - cosmo
+        - assets/aa-theme-dark.scss
+        - assets/aa/colors-dark.scss
+        - assets/aa/fonts.scss
+    highlight-style: a11y   # built-in; replaces the missing a11y-*.theme files
+    code-link: true
+    pagetitle: "{{< meta title >}}"
+    lightbox: true
+
+execute:
+  freeze: auto
+
+# Analytics: add your GA4 snippet as an include when ready, e.g.
+# include-in-header:
+#   - assets/aa/ga4.html

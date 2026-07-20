@@ -1,0 +1,33 @@
+---
+title: "Active Analytics"
+pagetitle: "Active Analytics"
+subtitle: "Geospatial data science for transport, air quality, and road safety"
+image: assets/aa/img/logo.svg
+image-alt: "Active Analytics logo"
+
+about:
+  template: solana
+  image-width: 16em
+  id: hero-heading
+  links:
+    - icon: github
+      aria-label: GitHub
+      href: https://github.com/activeanalytics-nl
+    - icon: linkedin
+      aria-label: LinkedIn
+      href: https://linkedin.com
+    - text: "{{< fa envelope >}}"
+      aria-label: Contact
+      href: contact.qmd
+---
+
+::: {#hero-heading}
+
+Active Analytics is an independent consultancy specialising in reproducible
+analysis of transport, air quality, and road safety data. We build evidence
+that stands up to scrutiny — from dispersion modelling and meteorological
+normalisation to STATS19 collision analysis and TAG-compliant appraisal.
+
+[Learn more about what we do &rarr;](services.qmd)
+
+:::

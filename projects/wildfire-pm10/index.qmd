@@ -1,0 +1,8 @@
+---
+title: "CAMS ensemble vs observations: wildfire PM10 episode"
+description: "Comparing CAMS forecasts against monitoring data during a wildfire smoke event."
+date: 2026-06-01
+categories: [air quality]
+---
+
+Placeholder project page.

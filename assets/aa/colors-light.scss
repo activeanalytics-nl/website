@@ -1,0 +1,21 @@
+/*-- scss:defaults --*/
+
+// Active Analytics — light mode palette
+// These replace the private colors-light.scss from the original silvia theme.
+// The $spc-* names are kept because assets/aa-theme-light.scss references them.
+
+// Brand
+$spc-primary:         #0F4C5C;  // deep petrol — body text, headings
+$spc-primary-light:   #17708A;  // links, primary buttons
+$spc-secondary:       #4A6670;  // muted slate
+$spc-secondary-light: #7C97A1;
+
+// Accent
+$spc-accent:          #E36414;  // warm orange
+$spc-accent-light:    #F08A4B;
+$spc-accent-dark:     #B34E0F;
+
+// Backgrounds
+$spc-bg-0:  #FDFDFC;  // page background
+$spc-bg-1:  #F2F5F6;  // code blocks, cards
+$spc-bg-00: #E4E9EB;  // shadows / deepest layer

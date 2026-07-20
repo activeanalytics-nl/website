@@ -1,0 +1,21 @@
+/*-- scss:defaults --*/
+
+// Active Analytics — dark mode palette
+// NOTE: in the dark theme, $body-color is set to $spc-primary,
+// so $spc-primary must be a LIGHT colour here (it becomes the text colour).
+
+// Brand
+$spc-primary:         #E4EDF0;  // body text (light on dark)
+$spc-primary-light:   #62B6CB;  // links
+$spc-secondary:       #9FB3BA;
+$spc-secondary-light: #C2D1D6;
+
+// Accent
+$spc-accent:          #F08A4B;
+$spc-accent-light:    #F5AC7E;
+$spc-accent-dark:     #E36414;
+
+// Backgrounds
+$spc-bg-0:  #1B2226;  // page background
+$spc-bg-1:  #2B2B2B;  // code blocks
+$spc-bg-00: #101417;  // shadows

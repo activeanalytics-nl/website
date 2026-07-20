@@ -1,0 +1,8 @@
+---
+title: "Services"
+subtitle: "What we do"
+---
+
+- **Air quality**: dispersion modelling (AERMOD/ADMS), ERA5 met preprocessing, trend analysis with meteorological normalisation
+- **Road safety**: STATS19 analysis, speed limit appraisal, TAG-compliant economic assessment
+- **Reproducible reporting**: automated Quarto pipelines published to the web
