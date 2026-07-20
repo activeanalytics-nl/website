@@ -1,0 +1,8 @@
+---
+title: "Welcome to Active Analytics"
+description: "A first post to test the blog listing."
+date: 2026-07-20
+categories: [news]
+---
+
+Placeholder post. Replace with real content.
