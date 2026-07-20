@@ -6,14 +6,14 @@
       version="2.0">
 <channel>
 <title>Active Analytics</title>
-<link>https://activeanalytics.nl/blog/</link>
-<atom:link href="https://activeanalytics.nl/blog/index.xml" rel="self" type="application/rss+xml"/>
+<link>https://activeanalytics-nl.github.io/website/blog/</link>
+<atom:link href="https://activeanalytics-nl.github.io/website/blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>Geospatial data science for transport, air quality, and road safety.</description>
 <generator>quarto-1.8.25</generator>
 <lastBuildDate>Sun, 19 Jul 2026 22:00:00 GMT</lastBuildDate>
 <item>
   <title>Welcome to Active Analytics</title>
-  <link>https://activeanalytics.nl/blog/2026-07-20-welcome/</link>
+  <link>https://activeanalytics-nl.github.io/website/blog/2026-07-20-welcome/</link>
   <description><![CDATA[ 
 
 
@@ -26,7 +26,7 @@
 
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>news</category>
-  <guid>https://activeanalytics.nl/blog/2026-07-20-welcome/</guid>
+  <guid>https://activeanalytics-nl.github.io/website/blog/2026-07-20-welcome/</guid>
   <pubDate>Sun, 19 Jul 2026 22:00:00 GMT</pubDate>
 </item>
 </channel>
