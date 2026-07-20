@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "services.html",
+    "href": "services.html",
+    "title": "Services",
+    "section": "",
+    "text": "Air quality: dispersion modelling (AERMOD/ADMS), ERA5 met preprocessing, trend analysis with meteorological normalisation\nRoad safety: STATS19 analysis, speed limit appraisal, TAG-compliant economic assessment\nReproducible reporting: automated Quarto pipelines published to the web\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "CAMS ensemble vs observations: wildfire PM10 episode\n\n\n\nair quality\n\n\n\nComparing CAMS forecasts against monitoring data during a wildfire smoke event.\n\n\n\n\n\n\nJun 1, 2026\n\n\n\n\n\n\nNo matching items\n Back to top"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Email: hello@activeanalytics.example\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "blog/2026-07-20-welcome/index.html",
+    "href": "blog/2026-07-20-welcome/index.html",
+    "title": "Welcome to Active Analytics",
+    "section": "",
+    "text": "Placeholder post. Replace with real content.\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Placeholder — background, experience (TNO, local authority work), and approach.\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Welcome to Active Analytics\n\n\n\nnews\n\n\n\nA first post to test the blog listing.\n\n\n\n\n\n20 Jul 2026\n\n\n\n\n\nNo matching items\n Back to top"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Active Analytics",
+    "section": "",
+    "text": "Active Analytics is an independent consultancy specialising in reproducible analysis of transport, air quality, and road safety data. We build evidence that stands up to scrutiny — from dispersion modelling and meteorological normalisation to STATS19 collision analysis and TAG-compliant appraisal.\nLearn more about what we do →\n\n    \n    \n  \n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "projects/wildfire-pm10/index.html",
+    "href": "projects/wildfire-pm10/index.html",
+    "title": "CAMS ensemble vs observations: wildfire PM10 episode",
+    "section": "",
+    "text": "Placeholder project page.\n\n\n\n Back to top"
+  }
+]

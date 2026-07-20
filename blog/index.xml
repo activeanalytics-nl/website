@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Active Analytics</title>
+<link>https://activeanalytics.example/blog/</link>
+<atom:link href="https://activeanalytics.example/blog/index.xml" rel="self" type="application/rss+xml"/>
+<description>Geospatial data science for transport, air quality, and road safety.</description>
+<generator>quarto-1.8.25</generator>
+<lastBuildDate>Sun, 19 Jul 2026 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>Welcome to Active Analytics</title>
+  <link>https://activeanalytics.example/blog/2026-07-20-welcome/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Placeholder post. Replace with real content.</p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>news</category>
+  <guid>https://activeanalytics.example/blog/2026-07-20-welcome/</guid>
+  <pubDate>Sun, 19 Jul 2026 22:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>
