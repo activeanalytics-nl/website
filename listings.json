@@ -1,5 +1,11 @@
 [
   {
+    "listing": "/projects/index.html",
+    "items": [
+      "/projects/wildfire-pm10/index.html"
+    ]
+  },
+  {
     "listing": "/blog/index.html",
     "items": [
       "/blog/2026-07-20-welcome/index.html"
