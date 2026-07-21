@@ -9,16 +9,16 @@
   {
     "objectID": "projects/index.html",
     "href": "projects/index.html",
-    "title": "Projects",
+    "title": "Active Analytics",
     "section": "",
-    "text": "CAMS ensemble vs observations: wildfire PM10 episode\n\n\n\nair quality\n\n\n\nComparing CAMS forecasts against monitoring data during a wildfire smoke event.\n\n\n\n\n\n\nJun 1, 2026\n\n\n\n\n\n\nNo matching items\n Back to top"
+    "text": "listing: contents: - “*/index.qmd” # local project pages - external-projects.yml # links out to GitHub Pages sites\n\n\n\n Back to top"
   },
   {
     "objectID": "contact.html",
     "href": "contact.html",
     "title": "Contact",
     "section": "",
-    "text": "Email: hello@activeanalytics.example\n\n\n\n Back to top"
+    "text": "Email: info@activeanalytics.nl\n\n\n\n Back to top"
   },
   {
     "objectID": "blog/2026-07-20-welcome/index.html",
@@ -32,7 +32,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Placeholder — background, experience (TNO, local authority work), and approach.\n\n\n\n Back to top"
+    "text": "Blaise has been working on transport, building and air quality modelling for &gt;15 years. He has excellent knowledge of reproducible data analysis with R.\n\n\n\n Back to top"
   },
   {
     "objectID": "blog/index.html",
@@ -46,7 +46,7 @@
     "href": "index.html",
     "title": "Active Analytics",
     "section": "",
-    "text": "Active Analytics is an independent consultancy specialising in reproducible analysis of transport, air quality, and road safety data. We build evidence that stands up to scrutiny — from dispersion modelling and meteorological normalisation to STATS19 collision analysis and TAG-compliant appraisal.\nLearn more about what we do →\n\n    \n    \n  \n\n\n\n\n\n\n Back to top"
+    "text": "Active Analytics is an independent consultancy specialising in reproducible analysis of transport, air quality, energy, and road safety data. We build evidence that stands up to scrutiny — from dispersion and energy modelling and meteorological data to STATS19 collision analysis and TAG appraisal.\nLearn more about what we do →\n\n    \n    \n  \n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "projects/wildfire-pm10/index.html",
