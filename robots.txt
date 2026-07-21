@@ -1,1 +1,1 @@
-Sitemap: httlps://activeanalytics.nl/sitemap.xml
+Sitemap: https://activeanalytics.nl/sitemap.xml
