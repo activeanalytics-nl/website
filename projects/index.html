@@ -90,7 +90,8 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
+      page: 18,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
@@ -386,7 +387,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(8)</span></div><div class="category" data-category="YWlyJTIwcXVhbGl0eQ==">air quality <span class="quarto-category-count">(3)</span></div><div class="category" data-category="RHV0Y2glMjB1cmJhbiUyMGRhdGE=">Dutch urban data <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R292JTIwZGF0YQ==">Gov data <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cm9hZCUyMHNhZmV0eQ==">road safety <span class="quarto-category-count">(3)</span></div><div class="category" data-category="VEFH">TAG <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(21)</span></div><div class="category" data-category="YWlyJTIwcXVhbGl0eQ==">air quality <span class="quarto-category-count">(5)</span></div><div class="category" data-category="ZW5lcmd5">energy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Z2VvYWNjb3VudGluZw==">geoaccounting <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bWV0ZW9yb2xvZ3k=">meteorology <span class="quarto-category-count">(3)</span></div><div class="category" data-category="b3BlbiUyMGRhdGE=">open data <span class="quarto-category-count">(9)</span></div><div class="category" data-category="b3BlbmRhdGE=">opendata <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cG9saWN5">policy <span class="quarto-category-count">(2)</span></div><div class="category" data-category="cG9wdWxhdGlvbg==">population <span class="quarto-category-count">(2)</span></div><div class="category" data-category="cmVwcm9kdWNpYmxl">reproducible <span class="quarto-category-count">(13)</span></div><div class="category" data-category="cm9hZCUyMHNhZmV0eQ==">road safety <span class="quarto-category-count">(4)</span></div><div class="category" data-category="c29jaWV0eQ==">society <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c3BhdGlhbCUyMGFuYWx5c2lz">spatial analysis <span class="quarto-category-count">(5)</span></div><div class="category" data-category="VEFH">TAG <span class="quarto-category-count">(2)</span></div><div class="category" data-category="dHJhZmZpYw==">traffic <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dHJhbnNwb3J0">transport <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -416,7 +417,35 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="VEFHJTJDYWlyJTIwcXVhbGl0eQ==" data-listing-date-sort="1781820000000">
+<div class="g-col-1" data-index="0" data-categories="VEFHJTJDYWlyJTIwcXVhbGl0eQ==" data-listing-date-sort="1784671200000">
+<a href="https://github.com/BlaiseKelly/cycle_superhighways_aq" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="photos/AADT_direction.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+COVID pop-up cycle paths
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('VEFH'); return false;">TAG</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('YWlyJTIwcXVhbGl0eQ=='); return false;">air quality</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Analysis of urban traffic air quality stations comparing streets where pop-up cycle paths were introduced.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Jul 22, 2026
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="VEFHJTJDYWlyJTIwcXVhbGl0eQ==" data-listing-date-sort="1781820000000">
 <a href="https://blaisekelly.github.io/B3108_speeds/" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -433,6 +462,9 @@ B3108 Analysis
 <div class="listing-category" onclick="window.quartoListingCategory('YWlyJTIwcXVhbGl0eQ=='); return false;">air quality</div>
 
 </div>
+<div class="card-text listing-description delink">
+<p>Analysis of speed, noise and TAG costs for the B3108 in Wiltshire</p>
+</div>
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
 Jun 19, 2026
@@ -441,7 +473,7 @@ Jun 19, 2026
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="YWlyJTIwcXVhbGl0eQ==" data-listing-date-sort="1780264800000" data-listing-file-modified-sort="1784561651969" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="3">
+<div class="g-col-1" data-index="2" data-categories="YWlyJTIwcXVhbGl0eQ==" data-listing-date-sort="1780264800000" data-listing-file-modified-sort="1784561651969" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="3">
 <a href="../projects/wildfire-pm10/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
@@ -468,7 +500,7 @@ Jun 1, 2026
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="YWlyJTIwcXVhbGl0eQ==" data-listing-date-sort="1780264800000">
+<div class="g-col-1" data-index="3" data-categories="YWlyJTIwcXVhbGl0eSUyQ21ldGVvcm9sb2d5" data-listing-date-sort="1780264800000">
 <a href="https://blaisekelly.github.io/ECWMF_ADS/" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -482,9 +514,11 @@ CAMS ensemble vs observations: wildfire PM10 episode
 
 <div class="listing-category" onclick="window.quartoListingCategory('YWlyJTIwcXVhbGl0eQ=='); return false;">air quality</div>
 
+<div class="listing-category" onclick="window.quartoListingCategory('bWV0ZW9yb2xvZ3k='); return false;">meteorology</div>
+
 </div>
 <div class="card-text listing-description delink">
-<p>Comparing CAMS forecasts against monitoring data during a wildfire smoke event.</p>
+<p>Comparing CAMS forecasts against monitoring data during the wildfires in North-West England in early July.</p>
 </div>
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
@@ -494,7 +528,7 @@ Jun 1, 2026
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="cm9hZCUyMHNhZmV0eQ==" data-listing-date-sort="1773529200000">
+<div class="g-col-1" data-index="4" data-categories="cm9hZCUyMHNhZmV0eQ==" data-listing-date-sort="1773529200000">
 <a href="https://blaisekelly.github.io/barcelona_city_dat/" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -509,6 +543,9 @@ Barcelona AQ and Cycling
 <div class="listing-category" onclick="window.quartoListingCategory('cm9hZCUyMHNhZmV0eQ=='); return false;">road safety</div>
 
 </div>
+<div class="card-text listing-description delink">
+<p>Analysis of local air quality observation data and cycle infrastructure from OSM before a study week in the city.</p>
+</div>
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
 Mar 15, 2026
@@ -517,7 +554,35 @@ Mar 15, 2026
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="cm9hZCUyMHNhZmV0eQ==" data-listing-date-sort="1763161200000">
+<div class="g-col-1" data-index="5" data-categories="cmVwcm9kdWNpYmxlJTJDdHJhbnNwb3J0" data-listing-date-sort="1763506800000">
+<a href="https://github.com/BlaiseKelly/google_speeds" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="photos/speeds.gif" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Google speed data
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('cmVwcm9kdWNpYmxl'); return false;">reproducible</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('dHJhbnNwb3J0'); return false;">transport</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Function and demo showing how the Google Distance Matrix API can be used to get current speed profiles for any road in the world.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Nov 19, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="6" data-categories="cm9hZCUyMHNhZmV0eQ==" data-listing-date-sort="1763161200000">
 <a href="https://blaisekelly.github.io/cycle_cities/" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -532,6 +597,9 @@ Cycle cities
 <div class="listing-category" onclick="window.quartoListingCategory('cm9hZCUyMHNhZmV0eQ=='); return false;">road safety</div>
 
 </div>
+<div class="card-text listing-description delink">
+<p>Applying the osmactive R package to cities around the world to determine the proportions of quality cycle infrastructure in each.</p>
+</div>
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
 Nov 15, 2025
@@ -540,7 +608,69 @@ Nov 15, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="cm9hZCUyMHNhZmV0eQ==" data-listing-date-sort="1761951600000">
+<div class="g-col-1" data-index="7" data-categories="b3BlbiUyMGRhdGElMkNwb3B1bGF0aW9uJTJDcmVwcm9kdWNpYmxl" data-listing-date-sort="1763074800000">
+<a href="https://github.com/BlaiseKelly/landscan_global_pop" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="photos/europe.gif" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Using Landscan population data
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('b3BlbiUyMGRhdGE='); return false;">open data</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cG9wdWxhdGlvbg=='); return false;">population</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cmVwcm9kdWNpYmxl'); return false;">reproducible</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Showing ease of use of the Oakland global 1km population raster with an animated plot of Europe over the years</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Nov 14, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="8" data-categories="cm9hZCUyMHNhZmV0eSUyQ3JlcHJvZHVjaWJsZSUyQ29wZW4lMjBkYXRhJTJDcG9saWN5" data-listing-date-sort="1763074800000">
+<a href="https://blaisekelly.github.io/winsley_stats19/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="photos/europe.gif" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Winsley STATS19
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('cm9hZCUyMHNhZmV0eQ=='); return false;">road safety</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cmVwcm9kdWNpYmxl'); return false;">reproducible</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('b3BlbiUyMGRhdGE='); return false;">open data</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cG9saWN5'); return false;">policy</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Breaking down the STATS19 data for the Parish of Winsley, Wiltshire.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Nov 14, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="9" data-categories="cm9hZCUyMHNhZmV0eQ==" data-listing-date-sort="1761951600000">
 <a href="https://blaisekelly.github.io/stats19_stats/" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -555,6 +685,9 @@ STATS19 reports
 <div class="listing-category" onclick="window.quartoListingCategory('cm9hZCUyMHNhZmV0eQ=='); return false;">road safety</div>
 
 </div>
+<div class="card-text listing-description delink">
+<p>A series of functions and scripts to generate reproducible reports from STATS19 data for local authorities with a focus on cyclist and pedestrian statistics.</p>
+</div>
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
 Nov 1, 2025
@@ -563,7 +696,121 @@ Nov 1, 2025
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="6" data-categories="RHV0Y2glMjB1cmJhbiUyMGRhdGE=" data-listing-date-sort="1760565600000">
+<div class="g-col-1" data-index="10" data-categories="b3BlbiUyMGRhdGElMkNyZXByb2R1Y2libGU=" data-listing-date-sort="1760047200000">
+<a href="https://github.com/BlaiseKelly/agroforestry" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="photos/low_sens_agro.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Agroforestry potential
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('b3BlbiUyMGRhdGE='); return false;">open data</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cmVwcm9kdWNpYmxl'); return false;">reproducible</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Reproducible plot of UK agroforestry potential for article on Agroforestry for the Environmental Scientist Magazine.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Oct 10, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="11" data-categories="c3BhdGlhbCUyMGFuYWx5c2lzJTJDb3BlbiUyMGRhdGElMkNyZXByb2R1Y2libGU=" data-listing-date-sort="1760047200000">
+<a href="https://blaisekelly.github.io/spanish_od/san_sebastian.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="photos/low_sens_agro.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Spanish OD data
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('c3BhdGlhbCUyMGFuYWx5c2lz'); return false;">spatial analysis</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('b3BlbiUyMGRhdGE='); return false;">open data</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cmVwcm9kdWNpYmxl'); return false;">reproducible</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Plotting the open access Spanish Origin Destination (OD) using the TMAP R package donut plot.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Oct 10, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="12" data-categories="bWV0ZW9yb2xvZ3k=" data-listing-date-sort="1760047200000">
+<a href="https://github.com/BlaiseKelly/tres_hombres_meteo" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="photos/low_sens_agro.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Tres Hombres trip
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('bWV0ZW9yb2xvZ3k='); return false;">meteorology</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Analysis and plotting of the ECMWF meteo data for trip I took on the Tres Hombres Cargo ship with Fair Transport in summer 2025.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Oct 10, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="13" data-categories="b3BlbmRhdGElMkN0cmFmZmljJTJDcmVwcm9kdWNpYmxl" data-listing-date-sort="1760047200000">
+<a href="https://github.com/BlaiseKelly/banes_anpr" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="photos/banes_od.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+BANES ANPR
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('b3BlbmRhdGE='); return false;">opendata</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('dHJhZmZpYw=='); return false;">traffic</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cmVwcm9kdWNpYmxl'); return false;">reproducible</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Applying the OD Jitter R package to Census data trips to generate a synthetic traffic dataset for Bath</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Oct 10, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="14" data-categories="Z2VvYWNjb3VudGluZyUyQ3JlcHJvZHVjaWJsZSUyQ3NwYXRpYWwlMjBhbmFseXNpcw==" data-listing-date-sort="1758664800000">
 <a href="https://github.com/BlaiseKelly/cbs_pc6_example" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -575,18 +822,55 @@ Using CBS PC6 data
 </h5>
 <div class="listing-categories">
 
-<div class="listing-category" onclick="window.quartoListingCategory('RHV0Y2glMjB1cmJhbiUyMGRhdGE='); return false;">Dutch urban data</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Z2VvYWNjb3VudGluZw=='); return false;">geoaccounting</div>
 
+<div class="listing-category" onclick="window.quartoListingCategory('cmVwcm9kdWNpYmxl'); return false;">reproducible</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('c3BhdGlhbCUyMGFuYWx5c2lz'); return false;">spatial analysis</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Reproducible example to demonstrate how R could be used for <code>geoaccounting</code> for a client</p>
 </div>
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
-Oct 16, 2025
+Sep 24, 2025
 </div>
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="7" data-categories="R292JTIwZGF0YQ==" data-listing-date-sort="1685138400000">
+<div class="g-col-1" data-index="15" data-categories="YWlyJTIwcXVhbGl0eSUyQ29wZW4lMjBkYXRhJTJDcmVwcm9kdWNpYmxl" data-listing-date-sort="1744322400000">
+<a href="https://github.com/BlaiseKelly/saqgetr_map" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="photos/saqgetr.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Observation sites map
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('YWlyJTIwcXVhbGl0eQ=='); return false;">air quality</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('b3BlbiUyMGRhdGE='); return false;">open data</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cmVwcm9kdWNpYmxl'); return false;">reproducible</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Short reproducible script to generate interactive plot of European Air Quality sites as organised by the saqgetr R package</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Apr 11, 2025
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="16" data-categories="b3BlbiUyMGRhdGElMkNyZXByb2R1Y2libGUlMkNwb3B1bGF0aW9uJTJDc29jaWV0eSUyQ3BvbGljeQ==" data-listing-date-sort="1685138400000">
 <a href="https://github.com/BlaiseKelly/GVA_data" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -598,8 +882,19 @@ ONS productivity data reproducible analysis
 </h5>
 <div class="listing-categories">
 
-<div class="listing-category" onclick="window.quartoListingCategory('R292JTIwZGF0YQ=='); return false;">Gov data</div>
+<div class="listing-category" onclick="window.quartoListingCategory('b3BlbiUyMGRhdGE='); return false;">open data</div>
 
+<div class="listing-category" onclick="window.quartoListingCategory('cmVwcm9kdWNpYmxl'); return false;">reproducible</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cG9wdWxhdGlvbg=='); return false;">population</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('c29jaWV0eQ=='); return false;">society</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cG9saWN5'); return false;">policy</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Comparing CAMS forecasts against monitoring data during a wildfire smoke event.</p>
 </div>
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
@@ -609,8 +904,131 @@ May 27, 2023
 </div>
 </div></a>
 </div>
+<div class="g-col-1" data-index="17" data-categories="cmVwcm9kdWNpYmxlJTJDbWV0ZW9yb2xvZ3k=" data-listing-date-sort="1678921200000">
+<a href="https://github.com/BlaiseKelly/task_curves" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="photos/mental.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Task curves
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('cmVwcm9kdWNpYmxl'); return false;">reproducible</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bWV0ZW9yb2xvZ3k='); return false;">meteorology</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Equations plotted for Hancock &amp; Vasmatzidis Isodecrement human performance curves at various WBGT (°C)</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Mar 16, 2023
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="18" data-categories="c3BhdGlhbCUyMGFuYWx5c2lzJTJDb3BlbiUyMGRhdGElMkNyZXByb2R1Y2libGUlMkNlbmVyZ3k=" data-listing-date-sort="1649541600000">
+<a href="https://github.com/BlaiseKelly/solarheatdata" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="photos/denmark_solar.gif" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Danish solar
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('c3BhdGlhbCUyMGFuYWx5c2lz'); return false;">spatial analysis</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('b3BlbiUyMGRhdGE='); return false;">open data</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cmVwcm9kdWNpYmxl'); return false;">reproducible</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZW5lcmd5'); return false;">energy</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>After visit to Vra built a script to scrape Danish district heating solar thermal sites from main website and plotting on an interactive map and gif showing progress of the…</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Apr 10, 2022
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="19" data-categories="c3BhdGlhbCUyMGFuYWx5c2lzJTJDb3BlbiUyMGRhdGElMkNyZXByb2R1Y2libGU=" data-listing-date-sort="1591740000000">
+<a href="https://github.com/BlaiseKelly/COVID_test_map" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="photos/covid_sites.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+COVID test centre map
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('c3BhdGlhbCUyMGFuYWx5c2lz'); return false;">spatial analysis</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('b3BlbiUyMGRhdGE='); return false;">open data</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cmVwcm9kdWNpYmxl'); return false;">reproducible</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Scrapping COVID test data from the government webpage to make an interactive visual map to help people find a nearby centre</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Jun 10, 2020
+</div>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="20" data-categories="c3BhdGlhbCUyMGFuYWx5c2lzJTJDb3BlbiUyMGRhdGElMkNyZXByb2R1Y2libGU=" data-listing-date-sort="1576278000000">
+<a href="https://blaisekelly.github.io/street_canyons/" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" data-src="photos/canyons.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Street Geometry
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('c3BhdGlhbCUyMGFuYWx5c2lz'); return false;">spatial analysis</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('b3BlbiUyMGRhdGE='); return false;">open data</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cmVwcm9kdWNpYmxl'); return false;">reproducible</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Repo showing how LIDAR data from Netherlands and UK can be used to estimate building to building distance and height.</p>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Dec 14, 2019
+</div>
+</div>
+</div>
+</div></a>
+</div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
+<nav id="listing-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
