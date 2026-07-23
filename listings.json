@@ -1,51 +1,8 @@
 [
   {
-    "listing": "/services.html",
-    "items": [
-      "/about.html",
-      "/index.html",
-      "/blog/index.html",
-      "/projects/wildfire-pm10/index.html",
-      "/contact.html",
-      "/404.html",
-      "/projects/index.html",
-      "/blog/2026-07-20-welcome/index.html"
-    ]
-  },
-  {
     "listing": "/projects/index.html",
     "items": [
       "/projects/wildfire-pm10/index.html"
-    ]
-  },
-  {
-    "listing": "/contact.html",
-    "items": [
-      "/about.html",
-      "/index.html",
-      "/blog/index.html",
-      "/projects/wildfire-pm10/index.html",
-      "/404.html",
-      "/projects/index.html",
-      "/services.html",
-      "/blog/2026-07-20-welcome/index.html"
-    ]
-  },
-  {
-    "listing": "/blog/2026-07-20-welcome/index.html",
-    "items": []
-  },
-  {
-    "listing": "/about.html",
-    "items": [
-      "/index.html",
-      "/blog/index.html",
-      "/projects/wildfire-pm10/index.html",
-      "/contact.html",
-      "/404.html",
-      "/projects/index.html",
-      "/services.html",
-      "/blog/2026-07-20-welcome/index.html"
     ]
   },
   {
@@ -53,22 +10,5 @@
     "items": [
       "/blog/2026-07-20-welcome/index.html"
     ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/about.html",
-      "/blog/index.html",
-      "/projects/wildfire-pm10/index.html",
-      "/contact.html",
-      "/404.html",
-      "/projects/index.html",
-      "/services.html",
-      "/blog/2026-07-20-welcome/index.html"
-    ]
-  },
-  {
-    "listing": "/projects/wildfire-pm10/index.html",
-    "items": []
   }
 ]
