@@ -4,7 +4,7 @@
     "href": "services.html",
     "title": "Services",
     "section": "",
-    "text": "Air quality: dispersion modelling (AERMOD/ADMS), ERA5 met preprocessing, trend analysis with meteorological normalisation\nRoad safety: STATS19 analysis, speed limit appraisal, TAG-compliant economic assessment\nReproducible reporting: automated Quarto pipelines published to the web\n\n\n\n\n Back to top"
+    "text": "Air quality: dispersion modelling (AERMOD/ADMS), ERA5 met preprocessing, trend analysis with meteorological normalisation\nRoad safety: STATS19 analysis, speed limit appraisal, TAG-compliant economic assessment\nReproducible reporting: automated Quarto pipelines published to the web\n\n\n\n\n\n\n\n\n\n\n\n\n\nAbout\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nActive Analytics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCAMS ensemble vs observations: wildfire PM10 episode\n\n\nComparing CAMS forecasts against monitoring data during a wildfire smoke event.\n\n\n\n\n\n\nJun 1, 2026\n\n\n\n\n\n\n\n\n\n\n\nContact\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPage not found\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProjects\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to Active Analytics\n\n\nA first post to test the blog listing.\n\n\n\n\n\n\nJul 20, 2026\n\n\n\n\n\n\nNo matching items\n Back to top"
   },
   {
     "objectID": "projects/index.html",
@@ -18,21 +18,21 @@
     "href": "contact.html",
     "title": "Contact",
     "section": "",
-    "text": "Email: info@activeanalytics.nl\n\n\n\n Back to top"
+    "text": "Email: info@activeanalytics.nl\n\n\n\n\n\n\n\n\n\n\n\n\nAbout\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nActive Analytics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCAMS ensemble vs observations: wildfire PM10 episode\n\n\nComparing CAMS forecasts against monitoring data during a wildfire smoke event.\n\n\n\n\n\n\nJun 1, 2026\n\n\n\n\n\n\n\n\n\n\n\nPage not found\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProjects\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nServices\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to Active Analytics\n\n\nA first post to test the blog listing.\n\n\n\n\n\n\nJul 20, 2026\n\n\n\n\n\n\nNo matching items\n Back to top"
   },
   {
     "objectID": "blog/2026-07-20-welcome/index.html",
     "href": "blog/2026-07-20-welcome/index.html",
     "title": "Welcome to Active Analytics",
     "section": "",
-    "text": "Placeholder post. Replace with real content.\n\n\n\n Back to top"
+    "text": "Placeholder post. Replace with real content.\n\n\n\n\n\n\n\n\nNo matching items\n Back to top"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Blaise has been working on transport, building and air quality modelling for &gt;15 years. He has excellent knowledge of reproducible data analysis with R.\nair quality — dispersion modelling (AERMOD/ADMS), CAMS wildfire PM10 evaluation, NO2 trend/changepoint analysis, met-normalised cycling infrastructure study road safety — STATS19 local authority reports, the Wiltshire 50→40mph appraisal, TAG economic assessment active travel — cycling infrastructure (Barcelona OSM evolution, pop-up lanes/NO2 work), walking/cycling policy transport — the broader umbrella when it’s not specifically active modes meteorology — ERA5 preprocessing pipeline, worldmet/NOAA gap-filling, boundary layer work spatial analysis — LiDAR (solar potential, z0/displacement height), OSM analysis, general GIS reproducible reporting — Quarto pipelines, automated report generation, GitHub Pages publishing R — package development (nexurbr, stats19_stats contributions), Shiny apps (the mapgl spatial audit tool, BAC calculator)\n\n\n\n Back to top"
+    "text": "Blaise has been working on transport, building and air quality modelling for &gt;15 years. He has excellent knowledge of reproducible data analysis with R.\nair quality — dispersion modelling (AERMOD/ADMS), CAMS wildfire PM10 evaluation, NO2 trend/changepoint analysis, met-normalised cycling infrastructure study road safety — STATS19 local authority reports, the Wiltshire 50→40mph appraisal, TAG economic assessment active travel — cycling infrastructure (Barcelona OSM evolution, pop-up lanes/NO2 work), walking/cycling policy transport — the broader umbrella when it’s not specifically active modes meteorology — ERA5 preprocessing pipeline, worldmet/NOAA gap-filling, boundary layer work spatial analysis — LiDAR (solar potential, z0/displacement height), OSM analysis, general GIS reproducible reporting — Quarto pipelines, automated report generation, GitHub Pages publishing R — package development (nexurbr, stats19_stats contributions), Shiny apps (the mapgl spatial audit tool, BAC calculator) dispersion modelling data visualisation shiny open data policy\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nActive Analytics\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCAMS ensemble vs observations: wildfire PM10 episode\n\n\nComparing CAMS forecasts against monitoring data during a wildfire smoke event.\n\n\n\n\n\n\nJun 1, 2026\n\n\n\n\n\n\n\n\n\n\n\nContact\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPage not found\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProjects\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nServices\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to Active Analytics\n\n\nA first post to test the blog listing.\n\n\n\n\n\n\nJul 20, 2026\n\n\n\n\n\n\nNo matching items\n Back to top"
   },
   {
     "objectID": "blog/index.html",
@@ -46,13 +46,13 @@
     "href": "index.html",
     "title": "Active Analytics",
     "section": "",
-    "text": "Active Analytics is an independent consultancy specialising in reproducible analysis of transport, air quality, energy, and road safety data. We build evidence that stands up to scrutiny — from dispersion and energy modelling and meteorological data to STATS19 collision analysis and TAG appraisal.\nLearn more about what we do →\n\n    \n    \n  \n\n\n\n\n\n\n Back to top"
+    "text": "Active Analytics is an independent consultancy specialising in reproducible analysis of transport, air quality, energy, and road safety data. We build evidence that stands up to scrutiny — from dispersion and energy modelling and meteorological data to STATS19 collision analysis and TAG appraisal.\nLearn more about what we do →\n\n    \n    \n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAbout\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCAMS ensemble vs observations: wildfire PM10 episode\n\n\nComparing CAMS forecasts against monitoring data during a wildfire smoke event.\n\n\n\n\n\n\nJun 1, 2026\n\n\n\n\n\n\n\n\n\n\n\nContact\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPage not found\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProjects\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nServices\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome to Active Analytics\n\n\nA first post to test the blog listing.\n\n\n\n\n\n\nJul 20, 2026\n\n\n\n\n\n\nNo matching items\n Back to top"
   },
   {
     "objectID": "projects/wildfire-pm10/index.html",
     "href": "projects/wildfire-pm10/index.html",
     "title": "CAMS ensemble vs observations: wildfire PM10 episode",
     "section": "",
-    "text": "Placeholder project page.\n\n\n\n Back to top"
+    "text": "Placeholder project page.\n\n\n\n\n\n\n\n\nNo matching items\n Back to top"
   }
 ]
