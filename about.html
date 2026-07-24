@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About – Active Analytics</title>
+<title>Active Analytics</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -38,7 +38,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-4f0e06b242da9f6f8ffe3bf4e2601da9.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-694885d6bfe1f8d3a02d1ab809d7d0f1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
@@ -326,31 +325,47 @@ cookieconsent.run({
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default">
+
+
+
+<div class="quarto-about-solana column-body">
+  <div class="about-entity">
+    <div class="entity-contents">
+      <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">About</h1>
-<p class="subtitle lead">Who is behind Active Analytics</p>
+<p class="subtitle lead">Who is Active Analytics</p>
+</div>
+<div class="quarto-title-meta">
+  </div>
+</header> <div class="about-links">
+  <a href="https://github.com/activeanalytics-nl" class="about-link" rel="" target="">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text"></span>
+  </a>
+  <a href="https://linkedin.com/company/activeanalytics" class="about-link" rel="" target="">
+    <i class="bi bi-linkedin"></i>
+     <span class="about-link-text"></span>
+  </a>
+  <a href="/contact.html" class="about-link" rel="" target="">
+     <span class="about-link-text"><i class="fa-solid fa-envelope" aria-label="envelope"></i></span>
+  </a>
+</div>
+      <div class="about-contents"><div id="hero-heading">
+<p>Blaise has been working on transport, building and air quality modelling for &gt;15 years. He has excellent knowledge of reproducible data analysis with R.</p>
+<p>air quality — dispersion modelling (AERMOD/ADMS), CAMS wildfire PM10 evaluation, NO2 trend/changepoint analysis, met-normalised cycling infrastructure study road safety — STATS19 local authority reports, the Wiltshire 50→40mph appraisal, TAG economic assessment active travel — cycling infrastructure (Barcelona OSM evolution, pop-up lanes/NO2 work), walking/cycling policy transport — the broader umbrella when it’s not specifically active modes meteorology — ERA5 preprocessing pipeline, worldmet/NOAA gap-filling, boundary layer work spatial analysis — LiDAR (solar potential, z0/displacement height), OSM analysis, general GIS reproducible reporting — Quarto pipelines, automated report generation, GitHub Pages publishing R — package development (nexurbr, stats19_stats contributions), Shiny apps (the mapgl spatial audit tool, BAC calculator) dispersion modelling data visualisation shiny open data policy</p>
+<p><a href="./services.html">Learn more about what we do →</a></p>
+</div></div>
+    </div>
+    <img src="media/Me.jfif" alt="Active Analytics logo" class="about-image
+  rounded " style="width: 16em;">
+  </div>
 </div>
 
 
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<p>Blaise has been working on transport, building and air quality modelling for &gt;15 years. He has excellent knowledge of reproducible data analysis with R.</p>
-<p>air quality — dispersion modelling (AERMOD/ADMS), CAMS wildfire PM10 evaluation, NO2 trend/changepoint analysis, met-normalised cycling infrastructure study road safety — STATS19 local authority reports, the Wiltshire 50→40mph appraisal, TAG economic assessment active travel — cycling infrastructure (Barcelona OSM evolution, pop-up lanes/NO2 work), walking/cycling policy transport — the broader umbrella when it’s not specifically active modes meteorology — ERA5 preprocessing pipeline, worldmet/NOAA gap-filling, boundary layer work spatial analysis — LiDAR (solar potential, z0/displacement height), OSM analysis, general GIS reproducible reporting — Quarto pipelines, automated report generation, GitHub Pages publishing R — package development (nexurbr, stats19_stats contributions), Shiny apps (the mapgl spatial audit tool, BAC calculator) dispersion modelling data visualisation shiny open data policy</p>
 
 
 
@@ -370,13 +385,6 @@ cookieconsent.run({
       window.document.body.appendChild(a);
     }
     setColorSchemeToggle(hasAlternateSentinel())
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
