@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="AERMOD dispersion modelling driven by ERA5 reanalysis meteorology and LiDAR-derived urban surface roughness — for any site, any year, without waiting on airport met data.">
 
-<title>Active Analytics</title>
+<title>Street-scale air quality dispersion modelling – Active Analytics</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,32 +24,33 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./media/logo_light.png" rel="icon" type="image/png">
-<script src="site_libs/cookie-consent/cookie-consent.js"></script>
-<link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-4f0e06b242da9f6f8ffe3bf4e2601da9.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-694885d6bfe1f8d3a02d1ab809d7d0f1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-4f0e06b242da9f6f8ffe3bf4e2601da9.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-0e6acac34d0bfa602243c1bfdc23cebd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-3cb31aeb86e52de0964b6e3a5490128e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-0e6acac34d0bfa602243c1bfdc23cebd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../media/logo_light.png" rel="icon" type="image/png">
+<script src="../../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-4f0e06b242da9f6f8ffe3bf4e2601da9.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-694885d6bfe1f8d3a02d1ab809d7d0f1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-4f0e06b242da9f6f8ffe3bf4e2601da9.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-0e6acac34d0bfa602243c1bfdc23cebd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-3cb31aeb86e52de0964b6e3a5490128e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-0e6acac34d0bfa602243c1bfdc23cebd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -103,11 +105,14 @@ cookieconsent.run({
 });
 </script> 
   
+<script src="../../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
 
-<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -276,11 +281,11 @@ cookieconsent.run({
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./media/logo_light.png" alt="" class="navbar-logo light-content">
-    <img src="./media/logo_light.png" alt="" class="navbar-logo dark-content">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../media/logo_light.png" alt="" class="navbar-logo light-content">
+    <img src="../../media/logo_light.png" alt="" class="navbar-logo dark-content">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Active Analytics</span>
     </a>
   </div>
@@ -291,23 +296,23 @@ cookieconsent.run({
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./services.html"> 
+    <a class="nav-link" href="../../services.html"> 
 <span class="menu-text">Services</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects/index.html"> 
+    <a class="nav-link" href="../../projects/index.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog/index.html"> 
+    <a class="nav-link" href="../../blog/index.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contact.html"> 
+    <a class="nav-link" href="../../contact.html"> 
 <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
@@ -323,53 +328,122 @@ cookieconsent.run({
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
-<!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
-
-
-
-
-
-<div class="quarto-about-solana column-body">
-  <div class="about-entity">
-    <div class="entity-contents">
-      <header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">About</h1>
-<p class="subtitle lead">Who is Active Analytics</p>
-</div>
-<div class="quarto-title-meta">
-  </div>
-</header> <div class="about-links">
-  <a href="https://github.com/blaisekelly" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="https://linkedin.com/blaiser" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="/contact.html" class="about-link" rel="" target="">
-     <span class="about-link-text"><i class="fa-solid fa-envelope" aria-label="envelope"></i></span>
-  </a>
-</div>
-      <div class="about-contents"><div id="hero-heading">
-<p>Blaise is an independent geospatial, energy and air pollution analyst. He worked on Environmental impact assessments, automated building comfort, CO2 emissions, road safety, urban heat, and cost-of-living/socio-economic angles. He is Dutch based with with knowledge of national datasets such as ODiN, PC6 data, NDW and works heavily in R and R-spatial (sf, tmap, dplyr, ggplot2, leaflet, rayshader), with a personal commitment to open, reproducible analysis.</p>
-<p>His project portfolio includes: road safety and active travel (multiple STATS19 collision-data analyses for parish/local-authority contexts, cycling infrastructure assessment via the osmactive package across cities, a Wiltshire B3108 speed/noise/TAG-cost study); air quality and atmospheric science (CAMS wildfire-episode validation against observations using ECMWF’s ADS, European air quality station mapping via saqgetr, methane source-apportionment donut maps); energy and transport data (ANPR traffic analysis in Bristol and Bath, Google Distance Matrix speed profiling, negative electricity pricing analysis, Danish district-heating solar-thermal scraping); and broader spatial/open-data demonstrations (LiDAR-based street canyon geometry, Landscan population rasters, Spanish origin-destination data, UK agroforestry potential, isodecrement heat-stress curves).</p>
-<p>He has published on a diverse range of topics and platforms. Peer-reviewed and conference work on occupational heat exposure (EU EPHOR project), heat/pollution/pollen co-exposure across Europe, shipping’s air quality impact in Rotterdam, and earlier work (2011–2014) on acoustic sensing for building energy efficiency and green-wave traffic signal timing — plus magazine/journal writing for outlets like the Institution of Environmental Sciences, Energy Institute and the Institute of Materials, Minerals and Mining on topics like solar PV, waste-to-energy, energy subsidies and CO2 pollution. He is comfortable straddling policy-facing writing and hands-on reproducible R-spatial analysis, with particular depth in air quality, road safety, and energy systems.</p>
-<p>More info on my areas of interest and the work I have done before: https://blaisekelly.github.io/me/</p>
-<p><a href="./services.html">Learn more about what we do →</a></p>
-</div></div>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#what-makes-this-different" id="toc-what-makes-this-different" class="nav-link active" data-scroll-target="#what-makes-this-different">What makes this different</a></li>
+  <li><a href="#how-it-works" id="toc-how-it-works" class="nav-link" data-scroll-target="#how-it-works">How it works</a></li>
+  <li><a href="#what-you-receive" id="toc-what-you-receive" class="nav-link" data-scroll-target="#what-you-receive">What you receive</a></li>
+  <li><a href="#typical-applications" id="toc-typical-applications" class="nav-link" data-scroll-target="#typical-applications">Typical applications</a></li>
+  <li><a href="#coverage" id="toc-coverage" class="nav-link" data-scroll-target="#coverage">Coverage</a></li>
+  <li><a href="#start-a-conversation" id="toc-start-a-conversation" class="nav-link" data-scroll-target="#start-a-conversation">Start a conversation</a></li>
+  </ul>
+</nav>
     </div>
-    <img src="media/Me.jfif" alt="Active Analytics logo" class="about-image
-  rounded " style="width: 16em;">
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Street-scale air quality dispersion modelling</h1>
+</div>
+
+<div>
+  <div class="description">
+    AERMOD dispersion modelling driven by ERA5 reanalysis meteorology and LiDAR-derived urban surface roughness — for any site, any year, without waiting on airport met data.
   </div>
 </div>
 
 
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
 
 
+</header>
+
+
+<div class="lead">
+<p>Where will pollutant concentrations exceed the limit value? What does a new road, junction change, or low-traffic scheme do to NO<sub>2</sub> at the nearest front door? Active Analytics answers these questions with street-scale dispersion modelling built on a modern, fully reproducible pipeline — reanalysis meteorology, metre-scale LiDAR terrain, and open road network data, assembled in R from source data to final report.</p>
+</div>
+<section id="what-makes-this-different" class="level2">
+<h2 class="anchored" data-anchor-id="what-makes-this-different">What makes this different</h2>
+<p>Most dispersion modelling studies still begin by hunting for a “representative” meteorological station — often an airport tens of kilometres from the site, with data gaps, a licence fee, and surface characteristics that look nothing like the street being modelled. Active Analytics takes a different route.</p>
+<p><strong>Meteorology derived for the site itself.</strong> The pipeline builds AERMOD-ready surface and profile meteorology directly from the ERA5 reanalysis, bypassing AERMET entirely. Boundary layer parameters — friction velocity, sensible heat flux, mixing heights, Monin–Obukhov length — are computed for the model domain’s own location, for any modelling year, anywhere in Europe. No station availability problem, no representativeness argument, no waiting on data requests.</p>
+<p><strong>Surface roughness measured, not assumed.</strong> Rather than picking a roughness value from a land-use table, the pipeline derives it from national LiDAR elevation data — 1 m resolution across England, 0.5 m AHN data across the Netherlands. Building and vegetation heights within the domain feed a morphometric (Macdonald) calculation of roughness length and displacement height, resolved by wind sector, so the model sees the actual urban form around the site: the terraces, the tower block, the open park upwind.</p>
+<p><strong>Tiled model runs that scale.</strong> AERMOD run times grow rapidly with sources, receptors, and hours. Large domains are split into self-contained tiles that run in parallel — and because each tile carries its own locally derived roughness and meteorology, the tiled model captures spatially varying surface characteristics that a single conventional AERMOD run cannot represent. Faster <em>and</em> more physically realistic.</p>
+<p><strong>Emissions with real temporal structure.</strong> Road sources are built from OpenStreetMap network geometry and gridded emissions, with hourly emission profiles (AERMOD <code>HOUREMIS</code>) so the diurnal and weekly rhythm of traffic is carried through to modelled concentrations — essential when comparing against hourly monitoring data or assessing short-term limit values.</p>
+</section>
+<section id="how-it-works" class="level2">
+<h2 class="anchored" data-anchor-id="how-it-works">How it works</h2>
+<div class="cell" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+  A[ERA5 reanalysis] --&gt; D[AERMOD-ready\nmeteorology]
+  B[National LiDAR\nDSM/DTM] --&gt; E[Sector-resolved\nroughness &amp; terrain]
+  C[OSM roads +\ngridded emissions] --&gt; F[Hourly area\nsources]
+  D --&gt; G[Tiled AERMOD runs]
+  E --&gt; G
+  F --&gt; G
+  G --&gt; H[Evaluation against\nmonitoring data]
+  H --&gt; I[Interactive maps,\ntables &amp; reports]
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p>Every step is scripted in R. That means each study is reproducible end to end: change the modelling year, the emissions scenario, or the domain boundary, and the entire chain — meteorology, roughness, sources, model runs, evaluation, report — regenerates consistently. Nothing lives in a spreadsheet that can’t be traced.</p>
+</section>
+<section id="what-you-receive" class="level2">
+<h2 class="anchored" data-anchor-id="what-you-receive">What you receive</h2>
+<p>Deliverables are tailored to the study, but a typical package includes:</p>
+<ul>
+<li>Modelled concentration fields and receptor-level results for the pollutants and averaging periods that matter to your assessment (annual mean NO<sub>2</sub>, hourly exceedances, PM<sub>10</sub>/PM<sub>2.5</sub>).</li>
+<li>Model evaluation against local monitoring — automatic comparison with reference-grade monitoring networks and diffusion tube data where available, so the model’s performance is demonstrated, not asserted.</li>
+<li>Interactive maps and contour plots alongside publication-quality figures.</li>
+<li>A written report (HTML and PDF) documenting inputs, methods, assumptions, and results — suitable for planning submissions, scheme appraisals, or internal decision-making.</li>
+<li>On request: the full model input decks and configuration, so your team or a reviewer can re-run and scrutinise everything.</li>
+</ul>
+</section>
+<section id="typical-applications" class="level2">
+<h2 class="anchored" data-anchor-id="typical-applications">Typical applications</h2>
+<p>The approach suits assessments at the street-to-neighbourhood scale where urban form and local traffic dominate: development and planning applications, road scheme and junction changes, low-traffic neighbourhoods and cycle infrastructure, monitoring network design (where should the next site go?), and source apportionment questions — how much of what’s measured at a kerbside site is the road in front of it? Where a wider context is needed, local dispersion results can be combined with regional chemistry-transport model output to separate local increments from background.</p>
+</section>
+<section id="coverage" class="level2">
+<h2 class="anchored" data-anchor-id="coverage">Coverage</h2>
+<p>The pipeline is currently operational for <strong>England</strong> (Environment Agency LiDAR, OSGB) and the <strong>Netherlands</strong> (AHN LiDAR, RD New), with ERA5 meteorology available globally — extending the LiDAR roughness component to other territories with national elevation datasets is straightforward.</p>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Background
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Active Analytics builds on professional experience in atmospheric dispersion and air quality modelling at TNO and AIT, spanning street-scale Gaussian modelling (AERMOD, ADMS) through to regional chemistry-transport modelling (LOTOS-EUROS) and CAMS ensemble evaluation. The same evaluation tooling used in research — openair, meteorological normalisation, model–observation statistics — is applied to every commercial study.</p>
+</div>
+</div>
+</section>
+<section id="start-a-conversation" class="level2">
+<h2 class="anchored" data-anchor-id="start-a-conversation">Start a conversation</h2>
+<p>Every site is different, and the honest first step is a short scoping discussion: what question the modelling needs to answer, what data already exists, and whether dispersion modelling is even the right tool for it.</p>
+<p><a href="mailto:info@activeanalytics.nl" class="btn btn-primary">Get in touch</a> to discuss your project, or read more about <a href="../../index.html">other services</a>.</p>
+
+
+</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -387,6 +461,13 @@ cookieconsent.run({
       window.document.body.appendChild(a);
     }
     setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
@@ -790,7 +871,7 @@ cookieconsent.run({
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
-    <a class="nav-link" href="./blog/index.xml">
+    <a class="nav-link" href="../../blog/index.xml">
       <i class="bi bi-rss" role="img">
 </i> 
     </a>

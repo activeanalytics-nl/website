@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-08-08">
+<meta name="description" content="An R package that builds parameterised Local Authority, parish and national road safety reports from DfT STATS19 collision data — including geography, deprivation, costs and OpenStreetMap network analysis.">
 
-<title>Active Analytics</title>
+<title>stats19reports – Active Analytics</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,35 +22,71 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./media/logo_light.png" rel="icon" type="image/png">
-<script src="site_libs/cookie-consent/cookie-consent.js"></script>
-<link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-4f0e06b242da9f6f8ffe3bf4e2601da9.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-694885d6bfe1f8d3a02d1ab809d7d0f1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-4f0e06b242da9f6f8ffe3bf4e2601da9.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-0e6acac34d0bfa602243c1bfdc23cebd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-3cb31aeb86e52de0964b6e3a5490128e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-0e6acac34d0bfa602243c1bfdc23cebd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../media/logo_light.png" rel="icon" type="image/png">
+<script src="../../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-4f0e06b242da9f6f8ffe3bf4e2601da9.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-694885d6bfe1f8d3a02d1ab809d7d0f1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-4f0e06b242da9f6f8ffe3bf4e2601da9.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-0e6acac34d0bfa602243c1bfdc23cebd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-3cb31aeb86e52de0964b6e3a5490128e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-0e6acac34d0bfa602243c1bfdc23cebd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -276,11 +314,11 @@ cookieconsent.run({
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./media/logo_light.png" alt="" class="navbar-logo light-content">
-    <img src="./media/logo_light.png" alt="" class="navbar-logo dark-content">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../media/logo_light.png" alt="" class="navbar-logo light-content">
+    <img src="../../media/logo_light.png" alt="" class="navbar-logo dark-content">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Active Analytics</span>
     </a>
   </div>
@@ -291,23 +329,23 @@ cookieconsent.run({
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./services.html"> 
+    <a class="nav-link" href="../../services.html"> 
 <span class="menu-text">Services</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects/index.html"> 
+    <a class="nav-link" href="../../projects/index.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog/index.html"> 
+    <a class="nav-link" href="../../blog/index.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contact.html"> 
+    <a class="nav-link" href="../../contact.html"> 
 <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
@@ -325,51 +363,193 @@ cookieconsent.run({
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 
-
-
-
-<div class="quarto-about-solana column-body">
-  <div class="about-entity">
-    <div class="entity-contents">
-      <header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About</h1>
-<p class="subtitle lead">Who is Active Analytics</p>
+<h1 class="title">stats19reports</h1>
+<p class="subtitle lead">Reproducible road safety reports for Great Britain from STATS19 data</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">R</div>
+    <div class="quarto-category">road safety</div>
+    <div class="quarto-category">STATS19</div>
+    <div class="quarto-category">open data</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    An R package that builds parameterised Local Authority, parish and national road safety reports from DfT STATS19 collision data — including geography, deprivation, costs and OpenStreetMap network analysis.
+  </div>
 </div>
+
+
 <div class="quarto-title-meta">
-  </div>
-</header> <div class="about-links">
-  <a href="https://github.com/blaisekelly" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="https://linkedin.com/blaiser" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="/contact.html" class="about-link" rel="" target="">
-     <span class="about-link-text"><i class="fa-solid fa-envelope" aria-label="envelope"></i></span>
-  </a>
-</div>
-      <div class="about-contents"><div id="hero-heading">
-<p>Blaise is an independent geospatial, energy and air pollution analyst. He worked on Environmental impact assessments, automated building comfort, CO2 emissions, road safety, urban heat, and cost-of-living/socio-economic angles. He is Dutch based with with knowledge of national datasets such as ODiN, PC6 data, NDW and works heavily in R and R-spatial (sf, tmap, dplyr, ggplot2, leaflet, rayshader), with a personal commitment to open, reproducible analysis.</p>
-<p>His project portfolio includes: road safety and active travel (multiple STATS19 collision-data analyses for parish/local-authority contexts, cycling infrastructure assessment via the osmactive package across cities, a Wiltshire B3108 speed/noise/TAG-cost study); air quality and atmospheric science (CAMS wildfire-episode validation against observations using ECMWF’s ADS, European air quality station mapping via saqgetr, methane source-apportionment donut maps); energy and transport data (ANPR traffic analysis in Bristol and Bath, Google Distance Matrix speed profiling, negative electricity pricing analysis, Danish district-heating solar-thermal scraping); and broader spatial/open-data demonstrations (LiDAR-based street canyon geometry, Landscan population rasters, Spanish origin-destination data, UK agroforestry potential, isodecrement heat-stress curves).</p>
-<p>He has published on a diverse range of topics and platforms. Peer-reviewed and conference work on occupational heat exposure (EU EPHOR project), heat/pollution/pollen co-exposure across Europe, shipping’s air quality impact in Rotterdam, and earlier work (2011–2014) on acoustic sensing for building energy efficiency and green-wave traffic signal timing — plus magazine/journal writing for outlets like the Institution of Environmental Sciences, Energy Institute and the Institute of Materials, Minerals and Mining on topics like solar PV, waste-to-energy, energy subsidies and CO2 pollution. He is comfortable straddling policy-facing writing and hands-on reproducible R-spatial analysis, with particular depth in air quality, road safety, and energy systems.</p>
-<p>More info on my areas of interest and the work I have done before: https://blaisekelly.github.io/me/</p>
-<p><a href="./services.html">Learn more about what we do →</a></p>
-</div></div>
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">August 8, 2026</p>
     </div>
-    <img src="media/Me.jfif" alt="Active Analytics logo" class="about-image
-  rounded " style="width: 16em;">
   </div>
-</div>
+  
+    
+  </div>
+  
 
 
+</header>
 
 
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p><code>stats19reports</code> is an R package that automates the production of reproducible road safety reports for any area in Great Britain, built on top of the rOpenSci <a href="https://github.com/ropensci/stats19"><code>stats19</code></a> package. A full Local Authority report that would previously take days of manual data wrangling runs in a single command; individual sections can be updated and re-rendered without re-running the whole pipeline.</p>
+<p>The package produces three types of report:</p>
+<ul>
+<li><strong>Local Authority reports</strong> — comprehensive analysis for any GB Local Authority, matched by name against the ONS boundary files</li>
+<li><strong>Parish council reports</strong> — the same framework scaled down to parish boundaries, with a longer default analysis period to compensate for small numbers</li>
+<li><strong>National pavement reports</strong> — a GB-wide study of pedestrians struck on a footway or verge, with BBC-styled charts and treemaps of where fatalities happen</li>
+</ul>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># install</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>remotes<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">"BlaiseKelly/stats19reports"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<hr>
+</section>
+<section id="what-the-reports-cover" class="level2">
+<h2 class="anchored" data-anchor-id="what-the-reports-cover">What the reports cover</h2>
+<p>Each Local Authority report works through the following sections, each independently cached so re-runs are fast:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Section</th>
+<th>What it covers</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Rankings</strong></td>
+<td>LA’s position among all 206 GB authorities for fatal, KSI, serious and slight casualties — overall, cyclists and pedestrians</td>
+</tr>
+<tr class="even">
+<td><strong>National maps</strong></td>
+<td>Choropleth grids of LA casualty rates across GB</td>
+</tr>
+<tr class="odd">
+<td><strong>Road network</strong></td>
+<td>Casualties matched to OpenStreetMap links; sortable table of top roads by collision count</td>
+</tr>
+<tr class="even">
+<td><strong>Speed limits</strong></td>
+<td>Casualty and collision rates per km of road by speed limit category</td>
+</tr>
+<tr class="odd">
+<td><strong>Crash conditions</strong></td>
+<td>Bar charts by road surface, junction type, lighting, weather</td>
+</tr>
+<tr class="even">
+<td><strong>LSOA / IMD</strong></td>
+<td>Population and casualty distribution by Lower Super Output Area and Index of Multiple Deprivation decile</td>
+</tr>
+<tr class="odd">
+<td><strong>MSOA</strong></td>
+<td>National casualty ranking for each MSOA in the LA; IMD scatter plots for the strongest deprivation-casualty correlations</td>
+</tr>
+<tr class="even">
+<td><strong>Demographics</strong></td>
+<td>Casualties by age band and sex; KSI breakdown</td>
+</tr>
+<tr class="odd">
+<td><strong>Pavement collisions</strong></td>
+<td>Single-vehicle pavement collisions: waffle chart coloured by striking vehicle</td>
+</tr>
+<tr class="even">
+<td><strong>Costs</strong></td>
+<td>DfT TAG / RAS4001 collision cost valuation by severity and road type</td>
+</tr>
+</tbody>
+</table>
+<p>Parish reports share the same engine but use parish boundaries from the national planning data platform and extend back to 2010 by default — necessary because small areas accumulate few collisions per year.</p>
+<hr>
+</section>
+<section id="usage" class="level2">
+<h2 class="anchored" data-anchor-id="usage">Usage</h2>
+<section id="local-authority-report" class="level3">
+<h3 class="anchored" data-anchor-id="local-authority-report">Local Authority report</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(stats19reports)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co"># full build — sections are cached, so interrupted runs resume</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="fu">build_la_report_data</span>(<span class="st">"Bristol"</span>, <span class="at">base_year =</span> <span class="dv">2021</span>, <span class="at">upper_year =</span> <span class="dv">2025</span>)</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">render_la_report</span>(<span class="st">"Bristol"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="iterating-on-one-section" class="level3">
+<h3 class="anchored" data-anchor-id="iterating-on-one-section">Iterating on one section</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># after changing something in the MSOA analysis:</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">load_all</span>()</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">build_la_report_data</span>(<span class="st">"Bristol"</span>, <span class="at">sections =</span> <span class="st">"msoa"</span>, <span class="at">overwrite =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="fu">render_la_report</span>(<span class="st">"Bristol"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="parish-council-report" class="level3">
+<h3 class="anchored" data-anchor-id="parish-council-report">Parish council report</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">build_parish_report_data</span>(<span class="st">"Winsley"</span>)</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">render_parish_report</span>(<span class="st">"Winsley"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="national-pavement-report" class="level3">
+<h3 class="anchored" data-anchor-id="national-pavement-report">National pavement report</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">build_pavement_report_data</span>(<span class="at">base_year =</span> <span class="dv">2021</span>, <span class="at">upper_year =</span> <span class="dv">2025</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<hr>
+</section>
+</section>
+<section id="how-the-pipeline-works" class="level2">
+<h2 class="anchored" data-anchor-id="how-the-pipeline-works">How the pipeline works</h2>
+<p>The pipeline is split into named sections that correspond to parts of the rendered report. Each section saves its outputs to <code>outputs/&lt;area&gt;/data/sections/&lt;name&gt;.rds</code> and is skipped on subsequent runs if that file already exists. Shared downloads — STATS19 data, LA boundaries and the IMD 2025 GeoPackage — are cached separately so they are fetched only once regardless of how many sections are (re-)run.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># see the section → report part mapping</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fu">report_sections</span>()</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;       rankings       national    interactive            osm</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; "Introduction…" "Intro: maps…" "Where in LA?" "Road network…"</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;     conditions          lsoa          msoa   demographics</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; "Conditions…"   "LSOA/IMD…"    "MSOA…"      "Demographics…"</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;     pavements         costs</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt; "Pavements…"    "Costs…"</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>The design is deliberately compatible with the <a href="https://books.ropensci.org/targets/"><code>targets</code></a> R package for projects that need full dependency tracking across multiple LAs — the internal <code>sec_*</code> functions map onto targets almost one-to-one.</p>
+<hr>
+</section>
+<section id="data-sources" class="level2">
+<h2 class="anchored" data-anchor-id="data-sources">Data sources</h2>
+<p>All data is downloaded programmatically at run time — no manual data preparation is required.</p>
+<ul>
+<li><strong>STATS19 collision, casualty and vehicle data</strong> via the <a href="https://github.com/ropensci/stats19"><code>stats19</code></a> rOpenSci package</li>
+<li><strong>Local Authority and LSOA 2021 boundaries</strong> from ONS Open Geography Portal</li>
+<li><strong>MSOA 2021 boundaries</strong> and House of Commons MSOA names lookup</li>
+<li><strong>IMD 2025</strong> LSOA-level Index of Multiple Deprivation</li>
+<li><strong>LSOA population</strong> from ONS mid-year estimates</li>
+<li><strong>OpenStreetMap driving network</strong> via <a href="https://github.com/nptscot/osmactive"><code>osmactive</code></a></li>
+<li><strong>DfT TAG / RAS4001</strong> value of prevention costs (ODS download)</li>
+<li><strong>Parish boundaries</strong> from <a href="https://www.planning.data.gov.uk/">planning.data.gov.uk</a> (parish reports)</li>
+</ul>
+<hr>
+</section>
+<section id="technical-approach" class="level2">
+<h2 class="anchored" data-anchor-id="technical-approach">Technical approach</h2>
+<p>The package is built around a few design principles that make it practical to use in a production context:</p>
+<p><strong>Reproducibility</strong> — every output is derived from publicly available open data through documented, version-controlled code. The Quarto report template uses parameters rather than find-and-replace text substitution; all summary statistics and inline prose are generated by package functions rather than embedded in the template.</p>
+<p><strong>Incremental builds</strong> — slow sections (OSM network download, national choropleth maps, per-street maps) only run once. The OSM driving network is cached separately and shared between the road network and interactive map sections.</p>
+<p><strong>Separation of concerns</strong> — the report template is thin: it reads an RDS produced by the pipeline and calls helper functions. The prose helpers (<code>la_summary_paragraph()</code>, <code>five_year_sentence()</code>, <code>change_phrase()</code>) and table builders (<code>tabulate_osm_roads()</code>, <code>tabulate_msoa_ranks()</code> etc.) live in the package, so they can be tested and reused independently.</p>
+<p><strong>Open source</strong> — MIT licensed, available on GitHub. All dependencies are open source; the package avoids any proprietary data sources.</p>
+<hr>
+</section>
+<section id="installation-and-dependencies" class="level2">
+<h2 class="anchored" data-anchor-id="installation-and-dependencies">Installation and dependencies</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>remotes<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">"BlaiseKelly/stats19reports"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Key dependencies installed automatically: <code>stats19</code>, <code>sf</code>, <code>tmap</code> (≥ 4.0), <code>osmactive</code>, <code>ggplot2</code>, <code>gt</code>, <code>reactable</code>, <code>openair</code>, <code>readODS</code>, <code>waffle</code>. The national pavement report additionally requires <code>bbplot</code> (<code>remotes::install_github("bbc/bbplot")</code>). The <code>magick</code> package (optional) enables the stitched multi-panel figures.</p>
+<p>Full source: <a href="https://github.com/BlaiseKelly/stats19reports">github.com/BlaiseKelly/stats19reports</a></p>
+
+
+</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -387,6 +567,13 @@ cookieconsent.run({
       window.document.body.appendChild(a);
     }
     setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
@@ -790,7 +977,7 @@ cookieconsent.run({
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
-    <a class="nav-link" href="./blog/index.xml">
+    <a class="nav-link" href="../../blog/index.xml">
       <i class="bi bi-rss" role="img">
 </i> 
     </a>

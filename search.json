@@ -4,14 +4,112 @@
     "href": "services.html",
     "title": "Services",
     "section": "",
-    "text": "Air quality: dispersion modelling (AERMOD/ADMS), ERA5 met preprocessing, trend analysis with meteorological normalisation\nRoad safety: STATS19 analysis, speed limit appraisal, TAG-compliant economic assessment\nReproducible reporting: automated Quarto pipelines published to the web\n\n\n\n\n Back to top"
+    "text": "Energy: Analysis of energy monitoring, dynamic electricity prices\nAir quality: dispersion modelling (AERMOD/ADMS), ERA5 and other netcdf meteorological data pre-processing, trend analysis with meteorological normalisation\nRoad safety: STATS19 analysis, speed limit appraisal, TAG-compliant economic assessment\nReproducible reporting: automated Quarto pipelines published to the web\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "projects/index.html",
-    "href": "projects/index.html",
-    "title": "Projects",
+    "objectID": "projects/stats19reports/index.html",
+    "href": "projects/stats19reports/index.html",
+    "title": "stats19reports",
     "section": "",
-    "text": "COVID pop-up cycle paths\n\n\n\nTAG\n\nair quality\n\n\n\nAnalysis of urban traffic air quality stations comparing streets where pop-up cycle paths were introduced.\n\n\n\nJul 22, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nB3108 Analysis\n\n\n\nTAG\n\nair quality\n\n\n\nAnalysis of speed, noise and TAG costs for the B3108 in Wiltshire.\n\n\n\nJun 19, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nCAMS ensemble vs observations: wildfire PM10 episode\n\n\n\nair quality\n\nmeteorology\n\n\n\nComparing CAMS forecasts against monitoring data during the wildfires in North-West England in early July.\n\n\n\nJun 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nBarcelona AQ and Cycling\n\n\n\nroad safety\n\n\n\nAnalysis of local air quality observation data and cycle infrastructure from OSM before a study week in the city.\n\n\n\nMar 15, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nPedestrian pavements STATS19\n\n\n\nreproducible\n\nroad safety\n\n\n\nReproducible analysis and plots of pavement pedestrian fatalities from STATS19 data covering Great Britain. Plots were suggested to the BBC and formatted using the BBC style…\n\n\n\nFeb 10, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nUsing Landscan population data\n\n\n\nopen data\n\npopulation\n\nreproducible\n\n\n\nShowing ease of use of the Oak Ridge Landscan global 1km population raster with an animated plot of Europe over the years.\n\n\n\nNov 20, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nGoogle speed data\n\n\n\nreproducible\n\ntransport\n\n\n\nFunction and demo showing how the Google Distance Matrix API can be used to get current speed profiles for any road in the world.\n\n\n\nNov 19, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nCycle cities\n\n\n\nroad safety\n\n\n\nApplying the osmactive R package to cities around the world to determine the proportions of quality cycle infrastructure in each.\n\n\n\nNov 15, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nWinsley STATS19\n\n\n\nroad safety\n\nreproducible\n\nopen data\n\npolicy\n\n\n\nBreaking down the STATS19 data for the Parish of Winsley, Wiltshire.\n\n\n\nNov 14, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nSpanish OD data\n\n\n\nspatial analysis\n\nopen data\n\nreproducible\n\n\n\nPlotting the open access Spanish Origin Destination (OD) using the TMAP R package donut plot.\n\n\n\nNov 10, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nSTATS19 reports\n\n\n\nroad safety\n\n\n\nA series of functions and scripts to generate reproducible reports from STATS19 data for local authorities with a focus on cyclist and pedestrian statistics.\n\n\n\nNov 1, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nBANES ANPR\n\n\n\nopendata\n\ntraffic\n\nreproducible\n\n\n\nApplying the OD Jitter R package to Census data trips to generate a synthetic traffic dataset for Bath.\n\n\n\nOct 10, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nAgroforestry potential\n\n\n\nopen data\n\nreproducible\n\n\n\nReproducible plot of UK agroforestry potential for article on Agroforestry for the Environmental Scientist Magazine.\n\n\n\nOct 2, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nUsing CBS PC6 data\n\n\n\ngeoaccounting\n\nreproducible\n\nspatial analysis\n\n\n\nReproducible example to demonstrate how R could be used for geoaccounting for a client.\n\n\n\nSep 24, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nObservation sites map\n\n\n\nair quality\n\nopen data\n\nreproducible\n\n\n\nShort reproducible script to generate interactive plot of European Air Quality sites as organised by the saqgetr R package.\n\n\n\nApr 11, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nTres Hombres trip\n\n\n\nmeteorology\n\n\n\nAnalysis and plotting of the ECMWF meteo data for trip I took on the Tres Hombres Cargo ship with Fair Transport in summer 2025.\n\n\n\nDec 10, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nONS productivity data reproducible analysis\n\n\n\nopen data\n\nreproducible\n\npopulation\n\nsociety\n\npolicy\n\n\n\nReproducible plot of ONS productivity data.\n\n\n\nMay 27, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nTask curves\n\n\n\nreproducible\n\nmeteorology\n\n\n\nEquations defined and plotted for Hancock & Vasmatzidis Isodecrement human performance curves at various WBGT (°C).\n\n\n\nMar 16, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\nDanish solar\n\n\n\nspatial analysis\n\nopen data\n\nreproducible\n\nenergy\n\n\n\nAfter a visit to Vrå I built a script to scrape Danish district heating solar thermal sites from main website and plotting on an interactive map and gif showing progress of…\n\n\n\nApr 10, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nCOVID test centre map\n\n\n\nspatial analysis\n\nopen data\n\nreproducible\n\n\n\nScrapping COVID test data from the government webpage to make an interactive visual map to help people find a nearby centre.\n\n\n\nJun 10, 2020\n\n\n\n\n\n\n\n\n\n\n\n\n\nStreet Geometry\n\n\n\nspatial analysis\n\nopen data\n\nreproducible\n\n\n\nRepo showing how LIDAR data from Netherlands and UK can be used to estimate building to building distance and height.\n\n\n\nDec 14, 2019\n\n\n\n\n\n\nNo matching items\n Back to top"
+    "text": "stats19reports is an R package that automates the production of reproducible road safety reports for any area in Great Britain, built on top of the rOpenSci stats19 package. A full Local Authority report that would previously take days of manual data wrangling runs in a single command; individual sections can be updated and re-rendered without re-running the whole pipeline.\nThe package produces three types of report:\n\nLocal Authority reports — comprehensive analysis for any GB Local Authority, matched by name against the ONS boundary files\nParish council reports — the same framework scaled down to parish boundaries, with a longer default analysis period to compensate for small numbers\nNational pavement reports — a GB-wide study of pedestrians struck on a footway or verge, with BBC-styled charts and treemaps of where fatalities happen\n\n# install\nremotes::install_github(\"BlaiseKelly/stats19reports\")"
+  },
+  {
+    "objectID": "projects/stats19reports/index.html#overview",
+    "href": "projects/stats19reports/index.html#overview",
+    "title": "stats19reports",
+    "section": "",
+    "text": "stats19reports is an R package that automates the production of reproducible road safety reports for any area in Great Britain, built on top of the rOpenSci stats19 package. A full Local Authority report that would previously take days of manual data wrangling runs in a single command; individual sections can be updated and re-rendered without re-running the whole pipeline.\nThe package produces three types of report:\n\nLocal Authority reports — comprehensive analysis for any GB Local Authority, matched by name against the ONS boundary files\nParish council reports — the same framework scaled down to parish boundaries, with a longer default analysis period to compensate for small numbers\nNational pavement reports — a GB-wide study of pedestrians struck on a footway or verge, with BBC-styled charts and treemaps of where fatalities happen\n\n# install\nremotes::install_github(\"BlaiseKelly/stats19reports\")"
+  },
+  {
+    "objectID": "projects/stats19reports/index.html#what-the-reports-cover",
+    "href": "projects/stats19reports/index.html#what-the-reports-cover",
+    "title": "stats19reports",
+    "section": "What the reports cover",
+    "text": "What the reports cover\nEach Local Authority report works through the following sections, each independently cached so re-runs are fast:\n\n\n\n\n\n\n\nSection\nWhat it covers\n\n\n\n\nRankings\nLA’s position among all 206 GB authorities for fatal, KSI, serious and slight casualties — overall, cyclists and pedestrians\n\n\nNational maps\nChoropleth grids of LA casualty rates across GB\n\n\nRoad network\nCasualties matched to OpenStreetMap links; sortable table of top roads by collision count\n\n\nSpeed limits\nCasualty and collision rates per km of road by speed limit category\n\n\nCrash conditions\nBar charts by road surface, junction type, lighting, weather\n\n\nLSOA / IMD\nPopulation and casualty distribution by Lower Super Output Area and Index of Multiple Deprivation decile\n\n\nMSOA\nNational casualty ranking for each MSOA in the LA; IMD scatter plots for the strongest deprivation-casualty correlations\n\n\nDemographics\nCasualties by age band and sex; KSI breakdown\n\n\nPavement collisions\nSingle-vehicle pavement collisions: waffle chart coloured by striking vehicle\n\n\nCosts\nDfT TAG / RAS4001 collision cost valuation by severity and road type\n\n\n\nParish reports share the same engine but use parish boundaries from the national planning data platform and extend back to 2010 by default — necessary because small areas accumulate few collisions per year."
+  },
+  {
+    "objectID": "projects/stats19reports/index.html#usage",
+    "href": "projects/stats19reports/index.html#usage",
+    "title": "stats19reports",
+    "section": "Usage",
+    "text": "Usage\n\nLocal Authority report\nlibrary(stats19reports)\n\n# full build — sections are cached, so interrupted runs resume\nbuild_la_report_data(\"Bristol\", base_year = 2021, upper_year = 2025)\nrender_la_report(\"Bristol\")\n\n\nIterating on one section\n# after changing something in the MSOA analysis:\ndevtools::load_all()\nbuild_la_report_data(\"Bristol\", sections = \"msoa\", overwrite = TRUE)\nrender_la_report(\"Bristol\")\n\n\nParish council report\nbuild_parish_report_data(\"Winsley\")\nrender_parish_report(\"Winsley\")\n\n\nNational pavement report\nbuild_pavement_report_data(base_year = 2021, upper_year = 2025)"
+  },
+  {
+    "objectID": "projects/stats19reports/index.html#how-the-pipeline-works",
+    "href": "projects/stats19reports/index.html#how-the-pipeline-works",
+    "title": "stats19reports",
+    "section": "How the pipeline works",
+    "text": "How the pipeline works\nThe pipeline is split into named sections that correspond to parts of the rendered report. Each section saves its outputs to outputs/&lt;area&gt;/data/sections/&lt;name&gt;.rds and is skipped on subsequent runs if that file already exists. Shared downloads — STATS19 data, LA boundaries and the IMD 2025 GeoPackage — are cached separately so they are fetched only once regardless of how many sections are (re-)run.\n# see the section → report part mapping\nreport_sections()\n#&gt;       rankings       national    interactive            osm\n#&gt; \"Introduction…\" \"Intro: maps…\" \"Where in LA?\" \"Road network…\"\n#&gt;     conditions          lsoa          msoa   demographics\n#&gt; \"Conditions…\"   \"LSOA/IMD…\"    \"MSOA…\"      \"Demographics…\"\n#&gt;     pavements         costs\n#&gt; \"Pavements…\"    \"Costs…\"\nThe design is deliberately compatible with the targets R package for projects that need full dependency tracking across multiple LAs — the internal sec_* functions map onto targets almost one-to-one."
+  },
+  {
+    "objectID": "projects/stats19reports/index.html#data-sources",
+    "href": "projects/stats19reports/index.html#data-sources",
+    "title": "stats19reports",
+    "section": "Data sources",
+    "text": "Data sources\nAll data is downloaded programmatically at run time — no manual data preparation is required.\n\nSTATS19 collision, casualty and vehicle data via the stats19 rOpenSci package\nLocal Authority and LSOA 2021 boundaries from ONS Open Geography Portal\nMSOA 2021 boundaries and House of Commons MSOA names lookup\nIMD 2025 LSOA-level Index of Multiple Deprivation\nLSOA population from ONS mid-year estimates\nOpenStreetMap driving network via osmactive\nDfT TAG / RAS4001 value of prevention costs (ODS download)\nParish boundaries from planning.data.gov.uk (parish reports)"
+  },
+  {
+    "objectID": "projects/stats19reports/index.html#technical-approach",
+    "href": "projects/stats19reports/index.html#technical-approach",
+    "title": "stats19reports",
+    "section": "Technical approach",
+    "text": "Technical approach\nThe package is built around a few design principles that make it practical to use in a production context:\nReproducibility — every output is derived from publicly available open data through documented, version-controlled code. The Quarto report template uses parameters rather than find-and-replace text substitution; all summary statistics and inline prose are generated by package functions rather than embedded in the template.\nIncremental builds — slow sections (OSM network download, national choropleth maps, per-street maps) only run once. The OSM driving network is cached separately and shared between the road network and interactive map sections.\nSeparation of concerns — the report template is thin: it reads an RDS produced by the pipeline and calls helper functions. The prose helpers (la_summary_paragraph(), five_year_sentence(), change_phrase()) and table builders (tabulate_osm_roads(), tabulate_msoa_ranks() etc.) live in the package, so they can be tested and reused independently.\nOpen source — MIT licensed, available on GitHub. All dependencies are open source; the package avoids any proprietary data sources."
+  },
+  {
+    "objectID": "projects/stats19reports/index.html#installation-and-dependencies",
+    "href": "projects/stats19reports/index.html#installation-and-dependencies",
+    "title": "stats19reports",
+    "section": "Installation and dependencies",
+    "text": "Installation and dependencies\nremotes::install_github(\"BlaiseKelly/stats19reports\")\nKey dependencies installed automatically: stats19, sf, tmap (≥ 4.0), osmactive, ggplot2, gt, reactable, openair, readODS, waffle. The national pavement report additionally requires bbplot (remotes::install_github(\"bbc/bbplot\")). The magick package (optional) enables the stitched multi-panel figures.\nFull source: github.com/BlaiseKelly/stats19reports"
+  },
+  {
+    "objectID": "projects/aermod/aermod-dispersion-modelling.html",
+    "href": "projects/aermod/aermod-dispersion-modelling.html",
+    "title": "Street-scale air quality dispersion modelling",
+    "section": "",
+    "text": "Where will pollutant concentrations exceed the limit value? What does a new road, junction change, or low-traffic scheme do to NO2 at the nearest front door? Active Analytics answers these questions with street-scale dispersion modelling built on a modern, fully reproducible pipeline — reanalysis meteorology, metre-scale LiDAR terrain, and open road network data, assembled in R from source data to final report."
+  },
+  {
+    "objectID": "projects/aermod/aermod-dispersion-modelling.html#what-makes-this-different",
+    "href": "projects/aermod/aermod-dispersion-modelling.html#what-makes-this-different",
+    "title": "Street-scale air quality dispersion modelling",
+    "section": "What makes this different",
+    "text": "What makes this different\nMost dispersion modelling studies still begin by hunting for a “representative” meteorological station — often an airport tens of kilometres from the site, with data gaps, a licence fee, and surface characteristics that look nothing like the street being modelled. Active Analytics takes a different route.\nMeteorology derived for the site itself. The pipeline builds AERMOD-ready surface and profile meteorology directly from the ERA5 reanalysis, bypassing AERMET entirely. Boundary layer parameters — friction velocity, sensible heat flux, mixing heights, Monin–Obukhov length — are computed for the model domain’s own location, for any modelling year, anywhere in Europe. No station availability problem, no representativeness argument, no waiting on data requests.\nSurface roughness measured, not assumed. Rather than picking a roughness value from a land-use table, the pipeline derives it from national LiDAR elevation data — 1 m resolution across England, 0.5 m AHN data across the Netherlands. Building and vegetation heights within the domain feed a morphometric (Macdonald) calculation of roughness length and displacement height, resolved by wind sector, so the model sees the actual urban form around the site: the terraces, the tower block, the open park upwind.\nTiled model runs that scale. AERMOD run times grow rapidly with sources, receptors, and hours. Large domains are split into self-contained tiles that run in parallel — and because each tile carries its own locally derived roughness and meteorology, the tiled model captures spatially varying surface characteristics that a single conventional AERMOD run cannot represent. Faster and more physically realistic.\nEmissions with real temporal structure. Road sources are built from OpenStreetMap network geometry and gridded emissions, with hourly emission profiles (AERMOD HOUREMIS) so the diurnal and weekly rhythm of traffic is carried through to modelled concentrations — essential when comparing against hourly monitoring data or assessing short-term limit values."
+  },
+  {
+    "objectID": "projects/aermod/aermod-dispersion-modelling.html#how-it-works",
+    "href": "projects/aermod/aermod-dispersion-modelling.html#how-it-works",
+    "title": "Street-scale air quality dispersion modelling",
+    "section": "How it works",
+    "text": "How it works\n\n\n\n\n\nflowchart LR\n  A[ERA5 reanalysis] --&gt; D[AERMOD-ready\\nmeteorology]\n  B[National LiDAR\\nDSM/DTM] --&gt; E[Sector-resolved\\nroughness & terrain]\n  C[OSM roads +\\ngridded emissions] --&gt; F[Hourly area\\nsources]\n  D --&gt; G[Tiled AERMOD runs]\n  E --&gt; G\n  F --&gt; G\n  G --&gt; H[Evaluation against\\nmonitoring data]\n  H --&gt; I[Interactive maps,\\ntables & reports]\n\n\n\n\n\n\nEvery step is scripted in R. That means each study is reproducible end to end: change the modelling year, the emissions scenario, or the domain boundary, and the entire chain — meteorology, roughness, sources, model runs, evaluation, report — regenerates consistently. Nothing lives in a spreadsheet that can’t be traced."
+  },
+  {
+    "objectID": "projects/aermod/aermod-dispersion-modelling.html#what-you-receive",
+    "href": "projects/aermod/aermod-dispersion-modelling.html#what-you-receive",
+    "title": "Street-scale air quality dispersion modelling",
+    "section": "What you receive",
+    "text": "What you receive\nDeliverables are tailored to the study, but a typical package includes:\n\nModelled concentration fields and receptor-level results for the pollutants and averaging periods that matter to your assessment (annual mean NO2, hourly exceedances, PM10/PM2.5).\nModel evaluation against local monitoring — automatic comparison with reference-grade monitoring networks and diffusion tube data where available, so the model’s performance is demonstrated, not asserted.\nInteractive maps and contour plots alongside publication-quality figures.\nA written report (HTML and PDF) documenting inputs, methods, assumptions, and results — suitable for planning submissions, scheme appraisals, or internal decision-making.\nOn request: the full model input decks and configuration, so your team or a reviewer can re-run and scrutinise everything."
+  },
+  {
+    "objectID": "projects/aermod/aermod-dispersion-modelling.html#typical-applications",
+    "href": "projects/aermod/aermod-dispersion-modelling.html#typical-applications",
+    "title": "Street-scale air quality dispersion modelling",
+    "section": "Typical applications",
+    "text": "Typical applications\nThe approach suits assessments at the street-to-neighbourhood scale where urban form and local traffic dominate: development and planning applications, road scheme and junction changes, low-traffic neighbourhoods and cycle infrastructure, monitoring network design (where should the next site go?), and source apportionment questions — how much of what’s measured at a kerbside site is the road in front of it? Where a wider context is needed, local dispersion results can be combined with regional chemistry-transport model output to separate local increments from background."
+  },
+  {
+    "objectID": "projects/aermod/aermod-dispersion-modelling.html#coverage",
+    "href": "projects/aermod/aermod-dispersion-modelling.html#coverage",
+    "title": "Street-scale air quality dispersion modelling",
+    "section": "Coverage",
+    "text": "Coverage\nThe pipeline is currently operational for England (Environment Agency LiDAR, OSGB) and the Netherlands (AHN LiDAR, RD New), with ERA5 meteorology available globally — extending the LiDAR roughness component to other territories with national elevation datasets is straightforward.\n\n\n\n\n\n\nNoteBackground\n\n\n\nActive Analytics builds on professional experience in atmospheric dispersion and air quality modelling at TNO and AIT, spanning street-scale Gaussian modelling (AERMOD, ADMS) through to regional chemistry-transport modelling (LOTOS-EUROS) and CAMS ensemble evaluation. The same evaluation tooling used in research — openair, meteorological normalisation, model–observation statistics — is applied to every commercial study."
+  },
+  {
+    "objectID": "projects/aermod/aermod-dispersion-modelling.html#start-a-conversation",
+    "href": "projects/aermod/aermod-dispersion-modelling.html#start-a-conversation",
+    "title": "Street-scale air quality dispersion modelling",
+    "section": "Start a conversation",
+    "text": "Start a conversation\nEvery site is different, and the honest first step is a short scoping discussion: what question the modelling needs to answer, what data already exists, and whether dispersion modelling is even the right tool for it.\nGet in touch to discuss your project, or read more about other services."
   },
   {
     "objectID": "contact.html",
@@ -32,7 +130,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Blaise has been working on transport, building and air quality modelling for &gt;15 years. He has excellent knowledge of reproducible data analysis with R.\nair quality — dispersion modelling (AERMOD/ADMS), CAMS wildfire PM10 evaluation, NO2 trend/changepoint analysis, met-normalised cycling infrastructure study\nroad safety — STATS19 local authority reports, the Wiltshire 50→40mph appraisal, TAG economic assessment\nactive travel — cycling infrastructure (Barcelona OSM evolution, pop-up lanes/NO2 work), walking/cycling policy\ntransport — the broader umbrella when it’s not specifically active modes\nmeteorology — ERA5 preprocessing pipeline, worldmet/NOAA gap-filling, boundary layer work\nspatial analysis — LiDAR (solar potential, z0/displacement height), OSM analysis, general GIS\nreproducible reporting — Quarto pipelines, automated report generation, GitHub Pages publishing\nR — package development (nexurbr, stats19_stats contributions), Shiny apps (the mapgl spatial audit tool, BAC calculator)\ndispersion modelling\ndata visualisation\nshiny\nopen data\npolicy\nLearn more about what we do →\n\n    \n    \n  \n\n\n\n\n\n\n Back to top"
+    "text": "Blaise is an independent geospatial, energy and air pollution analyst. He worked on Environmental impact assessments, automated building comfort, CO2 emissions, road safety, urban heat, and cost-of-living/socio-economic angles. He is Dutch based with with knowledge of national datasets such as ODiN, PC6 data, NDW and works heavily in R and R-spatial (sf, tmap, dplyr, ggplot2, leaflet, rayshader), with a personal commitment to open, reproducible analysis.\nHis project portfolio includes: road safety and active travel (multiple STATS19 collision-data analyses for parish/local-authority contexts, cycling infrastructure assessment via the osmactive package across cities, a Wiltshire B3108 speed/noise/TAG-cost study); air quality and atmospheric science (CAMS wildfire-episode validation against observations using ECMWF’s ADS, European air quality station mapping via saqgetr, methane source-apportionment donut maps); energy and transport data (ANPR traffic analysis in Bristol and Bath, Google Distance Matrix speed profiling, negative electricity pricing analysis, Danish district-heating solar-thermal scraping); and broader spatial/open-data demonstrations (LiDAR-based street canyon geometry, Landscan population rasters, Spanish origin-destination data, UK agroforestry potential, isodecrement heat-stress curves).\nHe has published on a diverse range of topics and platforms. Peer-reviewed and conference work on occupational heat exposure (EU EPHOR project), heat/pollution/pollen co-exposure across Europe, shipping’s air quality impact in Rotterdam, and earlier work (2011–2014) on acoustic sensing for building energy efficiency and green-wave traffic signal timing — plus magazine/journal writing for outlets like the Institution of Environmental Sciences, Energy Institute and the Institute of Materials, Minerals and Mining on topics like solar PV, waste-to-energy, energy subsidies and CO2 pollution. He is comfortable straddling policy-facing writing and hands-on reproducible R-spatial analysis, with particular depth in air quality, road safety, and energy systems.\nMore info on my areas of interest and the work I have done before: https://blaisekelly.github.io/me/\nLearn more about what we do →\n\n    \n    \n  \n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "blog/index.html",
@@ -47,6 +145,13 @@
     "title": "Active Analytics",
     "section": "",
     "text": "Energy is the thread that connects CO2 emissions, noise, air pollution, cost of living and road safety. Active Analytics is an independent consultancy specialising in reproducible and transparent analysis of the data behind this. From dispersion modelling and meteorological data processing to publication standard and interactive plots and simple dissemination websites.\nLearn more about what we do →\n\n    \n    \n  \n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "stats19reports\n\n\n\nR\n\nroad safety\n\nSTATS19\n\nopen data\n\n\n\nAn R package that builds parameterised Local Authority, parish and national road safety reports from DfT STATS19 collision data — including geography, deprivation, costs and…\n\n\n\n\n\n\nAug 8, 2026\n\n\n\n\n\n\nNo matching items\n Back to top"
   },
   {
     "objectID": "projects/wildfire-pm10/index.html",
