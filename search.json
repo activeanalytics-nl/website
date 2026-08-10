@@ -63,50 +63,50 @@
     "text": "Installation and dependencies\nremotes::install_github(\"BlaiseKelly/stats19reports\")\nKey dependencies installed automatically: stats19, sf, tmap (≥ 4.0), osmactive, ggplot2, gt, reactable, openair, readODS, waffle. The national pavement report additionally requires bbplot (remotes::install_github(\"bbc/bbplot\")). The magick package (optional) enables the stitched multi-panel figures.\nFull source: github.com/BlaiseKelly/stats19reports"
   },
   {
-    "objectID": "projects/aermod/aermod-dispersion-modelling.html",
-    "href": "projects/aermod/aermod-dispersion-modelling.html",
+    "objectID": "projects/aermod/index.html",
+    "href": "projects/aermod/index.html",
     "title": "Street-scale air quality dispersion modelling",
     "section": "",
     "text": "Where will pollutant concentrations exceed the limit value? What does a new road, junction change, or low-traffic scheme do to NO2 at the nearest front door? Active Analytics answers these questions with street-scale dispersion modelling built on a modern, fully reproducible pipeline — reanalysis meteorology, metre-scale LiDAR terrain, and open road network data, assembled in R from source data to final report."
   },
   {
-    "objectID": "projects/aermod/aermod-dispersion-modelling.html#what-makes-this-different",
-    "href": "projects/aermod/aermod-dispersion-modelling.html#what-makes-this-different",
+    "objectID": "projects/aermod/index.html#what-makes-this-different",
+    "href": "projects/aermod/index.html#what-makes-this-different",
     "title": "Street-scale air quality dispersion modelling",
     "section": "What makes this different",
     "text": "What makes this different\nMost dispersion modelling studies still begin by hunting for a “representative” meteorological station — often an airport tens of kilometres from the site, with data gaps, a licence fee, and surface characteristics that look nothing like the street being modelled. Active Analytics takes a different route.\nMeteorology derived for the site itself. The pipeline builds AERMOD-ready surface and profile meteorology directly from the ERA5 reanalysis, bypassing AERMET entirely. Boundary layer parameters — friction velocity, sensible heat flux, mixing heights, Monin–Obukhov length — are computed for the model domain’s own location, for any modelling year, anywhere in Europe. No station availability problem, no representativeness argument, no waiting on data requests.\nSurface roughness measured, not assumed. Rather than picking a roughness value from a land-use table, the pipeline derives it from national LiDAR elevation data — 1 m resolution across England, 0.5 m AHN data across the Netherlands. Building and vegetation heights within the domain feed a morphometric (Macdonald) calculation of roughness length and displacement height, resolved by wind sector, so the model sees the actual urban form around the site: the terraces, the tower block, the open park upwind.\nTiled model runs that scale. AERMOD run times grow rapidly with sources, receptors, and hours. Large domains are split into self-contained tiles that run in parallel — and because each tile carries its own locally derived roughness and meteorology, the tiled model captures spatially varying surface characteristics that a single conventional AERMOD run cannot represent. Faster and more physically realistic.\nEmissions with real temporal structure. Road sources are built from OpenStreetMap network geometry and gridded emissions, with hourly emission profiles (AERMOD HOUREMIS) so the diurnal and weekly rhythm of traffic is carried through to modelled concentrations — essential when comparing against hourly monitoring data or assessing short-term limit values."
   },
   {
-    "objectID": "projects/aermod/aermod-dispersion-modelling.html#how-it-works",
-    "href": "projects/aermod/aermod-dispersion-modelling.html#how-it-works",
+    "objectID": "projects/aermod/index.html#how-it-works",
+    "href": "projects/aermod/index.html#how-it-works",
     "title": "Street-scale air quality dispersion modelling",
     "section": "How it works",
     "text": "How it works\n\n\n\n\n\nflowchart LR\n  A[ERA5 reanalysis] --&gt; D[AERMOD-ready\\nmeteorology]\n  B[National LiDAR\\nDSM/DTM] --&gt; E[Sector-resolved\\nroughness & terrain]\n  C[OSM roads +\\ngridded emissions] --&gt; F[Hourly area\\nsources]\n  D --&gt; G[Tiled AERMOD runs]\n  E --&gt; G\n  F --&gt; G\n  G --&gt; H[Evaluation against\\nmonitoring data]\n  H --&gt; I[Interactive maps,\\ntables & reports]\n\n\n\n\n\n\nEvery step is scripted in R. That means each study is reproducible end to end: change the modelling year, the emissions scenario, or the domain boundary, and the entire chain — meteorology, roughness, sources, model runs, evaluation, report — regenerates consistently. Nothing lives in a spreadsheet that can’t be traced."
   },
   {
-    "objectID": "projects/aermod/aermod-dispersion-modelling.html#what-you-receive",
-    "href": "projects/aermod/aermod-dispersion-modelling.html#what-you-receive",
+    "objectID": "projects/aermod/index.html#what-you-receive",
+    "href": "projects/aermod/index.html#what-you-receive",
     "title": "Street-scale air quality dispersion modelling",
     "section": "What you receive",
     "text": "What you receive\nDeliverables are tailored to the study, but a typical package includes:\n\nModelled concentration fields and receptor-level results for the pollutants and averaging periods that matter to your assessment (annual mean NO2, hourly exceedances, PM10/PM2.5).\nModel evaluation against local monitoring — automatic comparison with reference-grade monitoring networks and diffusion tube data where available, so the model’s performance is demonstrated, not asserted.\nInteractive maps and contour plots alongside publication-quality figures.\nA written report (HTML and PDF) documenting inputs, methods, assumptions, and results — suitable for planning submissions, scheme appraisals, or internal decision-making.\nOn request: the full model input decks and configuration, so your team or a reviewer can re-run and scrutinise everything."
   },
   {
-    "objectID": "projects/aermod/aermod-dispersion-modelling.html#typical-applications",
-    "href": "projects/aermod/aermod-dispersion-modelling.html#typical-applications",
+    "objectID": "projects/aermod/index.html#typical-applications",
+    "href": "projects/aermod/index.html#typical-applications",
     "title": "Street-scale air quality dispersion modelling",
     "section": "Typical applications",
     "text": "Typical applications\nThe approach suits assessments at the street-to-neighbourhood scale where urban form and local traffic dominate: development and planning applications, road scheme and junction changes, low-traffic neighbourhoods and cycle infrastructure, monitoring network design (where should the next site go?), and source apportionment questions — how much of what’s measured at a kerbside site is the road in front of it? Where a wider context is needed, local dispersion results can be combined with regional chemistry-transport model output to separate local increments from background."
   },
   {
-    "objectID": "projects/aermod/aermod-dispersion-modelling.html#coverage",
-    "href": "projects/aermod/aermod-dispersion-modelling.html#coverage",
+    "objectID": "projects/aermod/index.html#coverage",
+    "href": "projects/aermod/index.html#coverage",
     "title": "Street-scale air quality dispersion modelling",
     "section": "Coverage",
     "text": "Coverage\nThe pipeline is currently operational for England (Environment Agency LiDAR, OSGB) and the Netherlands (AHN LiDAR, RD New), with ERA5 meteorology available globally — extending the LiDAR roughness component to other territories with national elevation datasets is straightforward.\n\n\n\n\n\n\nNoteBackground\n\n\n\nActive Analytics builds on professional experience in atmospheric dispersion and air quality modelling at TNO and AIT, spanning street-scale Gaussian modelling (AERMOD, ADMS) through to regional chemistry-transport modelling (LOTOS-EUROS) and CAMS ensemble evaluation. The same evaluation tooling used in research — openair, meteorological normalisation, model–observation statistics — is applied to every commercial study."
   },
   {
-    "objectID": "projects/aermod/aermod-dispersion-modelling.html#start-a-conversation",
-    "href": "projects/aermod/aermod-dispersion-modelling.html#start-a-conversation",
+    "objectID": "projects/aermod/index.html#start-a-conversation",
+    "href": "projects/aermod/index.html#start-a-conversation",
     "title": "Street-scale air quality dispersion modelling",
     "section": "Start a conversation",
     "text": "Start a conversation\nEvery site is different, and the honest first step is a short scoping discussion: what question the modelling needs to answer, what data already exists, and whether dispersion modelling is even the right tool for it.\nGet in touch to discuss your project, or read more about other services."
@@ -130,7 +130,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Blaise is an independent geospatial, energy and air pollution analyst. He worked on Environmental impact assessments, automated building comfort, CO2 emissions, road safety, urban heat, and cost-of-living/socio-economic angles. He is Dutch based with with knowledge of national datasets such as ODiN, PC6 data, NDW and works heavily in R and R-spatial (sf, tmap, dplyr, ggplot2, leaflet, rayshader), with a personal commitment to open, reproducible analysis.\nHis project portfolio includes: road safety and active travel (multiple STATS19 collision-data analyses for parish/local-authority contexts, cycling infrastructure assessment via the osmactive package across cities, a Wiltshire B3108 speed/noise/TAG-cost study); air quality and atmospheric science (CAMS wildfire-episode validation against observations using ECMWF’s ADS, European air quality station mapping via saqgetr, methane source-apportionment donut maps); energy and transport data (ANPR traffic analysis in Bristol and Bath, Google Distance Matrix speed profiling, negative electricity pricing analysis, Danish district-heating solar-thermal scraping); and broader spatial/open-data demonstrations (LiDAR-based street canyon geometry, Landscan population rasters, Spanish origin-destination data, UK agroforestry potential, isodecrement heat-stress curves).\nHe has published on a diverse range of topics and platforms. Peer-reviewed and conference work on occupational heat exposure (EU EPHOR project), heat/pollution/pollen co-exposure across Europe, shipping’s air quality impact in Rotterdam, and earlier work (2011–2014) on acoustic sensing for building energy efficiency and green-wave traffic signal timing — plus magazine/journal writing for outlets like the Institution of Environmental Sciences, Energy Institute and the Institute of Materials, Minerals and Mining on topics like solar PV, waste-to-energy, energy subsidies and CO2 pollution. He is comfortable straddling policy-facing writing and hands-on reproducible R-spatial analysis, with particular depth in air quality, road safety, and energy systems.\nMore info on my areas of interest and the work I have done before: https://blaisekelly.github.io/me/\nLearn more about what we do →\n\n    \n    \n  \n\n\n\n\n\n\n Back to top"
+    "text": "Blaise is an independent geospatial, energy and air pollution analyst. He has worked on Environmental impact assessments, automated building comfort, renewable energy modelling, CO2 emissions, road safety data, urban heat, and the interaction between these and cost-of-living/socio-economics/human health and environmental impacts. He is Dutch based with with knowledge of national datasets such as ODiN, CBS and NDW. He works heavily in R and R-spatial (sf, tmap, shiny, dplyr, ggplot2, leaflet, rayshader), with a personal commitment to open, reproducible analysis.\nMore info on the work I have done: https://blaisekelly.github.io/me/\nLearn more about what we do →\n\n    \n    \n  \n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "blog/index.html",
@@ -151,7 +151,7 @@
     "href": "projects/index.html",
     "title": "Projects",
     "section": "",
-    "text": "stats19reports\n\n\n\nR\n\nroad safety\n\nSTATS19\n\nopen data\n\n\n\nAn R package that builds parameterised Local Authority, parish and national road safety reports from DfT STATS19 collision data — including geography, deprivation, costs and…\n\n\n\n\n\n\nAug 8, 2026\n\n\n\n\n\n\nNo matching items\n Back to top"
+    "text": "Street-scale air quality dispersion modelling\n\n\nAERMOD dispersion modelling driven by ERA5 reanalysis meteorology and LiDAR-derived urban surface roughness — for any site, any year, without waiting on airport met data.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nstats19reports\n\n\n\nR\n\nroad safety\n\nSTATS19\n\nopen data\n\n\n\nAn R package that builds parameterised Local Authority, parish and national road safety reports from DfT STATS19 collision data — including geography, deprivation, costs and…\n\n\n\n\n\n\nAug 8, 2026\n\n\n\n\n\n\nNo matching items\n Back to top"
   },
   {
     "objectID": "projects/wildfire-pm10/index.html",
