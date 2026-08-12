@@ -135,14 +135,14 @@
   {
     "objectID": "portfolio/index.html",
     "href": "portfolio/index.html",
-    "title": "Blog",
+    "title": "Analysis",
     "section": "",
     "text": "CAMS ensemble vs observations: wildfire PM10 episode\n\n\n\nair quality\n\nmeteorology\n\n\n\nComparing CAMS forecasts against monitoring data during the wildfires in North-West England in early July.\n\n\n\nJun 1, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nBarcelona AQ and Cycling\n\n\n\nroad safety\n\nbarcelona\n\nair quality\n\nosmactive\n\nR\n\nopenair\n\ntmap\n\n\n\nLearnings from a week long study tour of Barcelona.\n\n\n\nMar 15, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nExploring the Effect of Weather on Air Quality in Chorlton\n\n\n\nmeteorology\n\nmanchester\n\nopenair\n\nair quality\n\nopen data\n\n\n\nPresentation to the Manchester Open data group on some analysis I did combining citizen monitoring data with meteo data\n\n\n\nJan 1, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlotting Solar Radiation & Wind Speed\n\n\n\nECMWF\n\nERA5\n\nsolar\n\nwind\n\nmeteorology\n\nR\n\nR spatial\n\nmeteorology\n\n\n\nUsing the ECMWF cumulative solar irradiation and average daily wind speed data, it is possible to compare daily average generation potential for any location in the world…\n\n\n\nNov 14, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\nIndoor AQ/Post Occupancy Insights with R\n\n\n\nair quality\n\nopenair\n\nR\n\nindoor air quality\n\nenergy\n\npost occupancy analysis\n\n\n\nWriting about analysis of office conditions using BMS system data and R tools\n\n\n\nJul 20, 2020\n\n\n\n\n\n\nNo matching items\n Back to top"
   },
   {
     "objectID": "services/index.html",
     "href": "services/index.html",
-    "title": "Projects",
+    "title": "Services",
     "section": "",
     "text": "Street-scale air quality dispersion modelling\n\n\nTools to setup, run and analyse the open source USEPA AERMOD dispersion model.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nstats19reports\n\n\n\nR\n\nroad safety\n\nSTATS19\n\nopen data\n\n\n\nAn R package that builds parameterised Local Authority, parish and national road safety reports from DfT STATS19 collision data — including geography, deprivation, costs and…\n\n\n\n\n\n\nAug 8, 2026\n\n\n\n\n\n\nNo matching items\n Back to top"
   }
