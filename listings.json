@@ -1,15 +1,17 @@
 [
   {
     "listing": "/blog/index.html",
-    "items": [
-      "/blog/2026-07-20-welcome/index.html"
-    ]
+    "items": []
   },
   {
-    "listing": "/projects/index.html",
+    "listing": "/portfolio/index.html",
+    "items": []
+  },
+  {
+    "listing": "/services/index.html",
     "items": [
-      "/projects/aermod/index.html",
-      "/projects/stats19reports/index.html"
+      "/services/aermod/index.html",
+      "/services/stats19reports/index.html"
     ]
   }
 ]

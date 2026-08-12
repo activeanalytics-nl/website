@@ -1,0 +1,13 @@
+---
+title: "Projects"
+listing:
+  contents:
+    - stats19reports/index.qmd          # local project pages
+    - aermod/index.qmd
+  sort: "date desc"
+  type: grid
+  image-height: 270px
+  page-size: 100
+  categories: true
+page-layout: full
+---
